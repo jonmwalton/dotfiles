@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Color Palette
-export BLACK=0xff000000 #0xff181926
+export BLACK=0x99000000 #0xff181926
 export WHITE=0xffcad3f5
 export RED=0xffed8796
 export GREEN=0xffa6da95
@@ -20,7 +20,7 @@ export LABEL_COLOR=$WHITE # Color of all labels
 export BACKGROUND_1=0xff2f2f2f
 export BACKGROUND_2=$BLACK #0x60494d64
 
-export POPUP_BACKGROUND_COLOR=0xff1e1e2e
+export POPUP_BACKGROUND_COLOR=$BLACK #0xff1e1e2e
 export POPUP_BORDER_COLOR=$WHITE
 
 export SHADOW_COLOR=$BLACK

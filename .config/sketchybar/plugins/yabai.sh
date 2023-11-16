@@ -53,7 +53,12 @@ windows_on_spaces () {
       apps=$(yabai -m query --windows --space $space | jq -r ".[].app")
       if [ "$apps" != "" ]; then
         while IFS= read -r app; do
-          icon_strip+=" $($CONFIG_DIR/plugins/icon_map.sh "$app")"
+           echo "$app"
+          #trimmed_app=$(echo $app | sed -i 's/‎+/ /g')
+          if [ $app != "Kodi" ]; then
+            icon_strip+=" $($CONFIG_DIR/plugins/icon_map.sh "$app")"
+            echo "$icon_strip"
+          fi
         done <<< "$apps"
       fi
       args+=(--set space.$space label="$icon_strip" label.drawing=on)

@@ -1,5 +1,5 @@
 case "$1" in
-"WhatsApp")
+"‎WhatsApp")
   icon_result=":whats_app:"
   ;;
 "Nova")
@@ -218,7 +218,7 @@ case "$1" in
 "VLC")
   icon_result=":vlc:"
   ;;
-"Chromium" | "Google Chrome" | "Google Chrome Canary")
+"Chromium" | "Google Chrome" | "Google Chrome Canary" | "Thorium")
   icon_result=":google_chrome:"
   ;;
 "Xcode")

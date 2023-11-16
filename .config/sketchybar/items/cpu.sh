@@ -1,5 +1,7 @@
 #!/bin/bash
 
+CPU_CLICK_SCRIPT="open -a 'Activity Monitor'"
+
 cpu_top=(
   label.font="$FONT:Semibold:7"
   label=CPU
@@ -20,6 +22,7 @@ cpu_percent=(
   icon.drawing=off
   update_freq=4
   mach_helper="$HELPER"
+  click_script="$CPU_CLICK_SCRIPT"
 )
 
 cpu_sys=(
