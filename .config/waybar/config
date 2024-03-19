@@ -36,8 +36,8 @@
         // START TASK TOOGLE
         "wlr/taskbar",
         // END TASK TOOGLE
-        "group/quicklinks",
-        "hyprland/window"
+        "group/quicklinks"//,
+        //"hyprland/window"
     ],
 
     // Modules Center
@@ -56,7 +56,9 @@
         // START NETWORK TOOGLE
         "network",
         // END NETWORK TOOGLE
-        "group/hardware",
+        //"group/hardware",
+        "cpu",
+        "memory",
         "custom/cliphist",
         // START IDLE TOOGLE
         "idle_inhibitor",

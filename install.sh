@@ -13,6 +13,10 @@ gtk-murrine-engine
 pulseaudio
 fontawesome-fonts
 
+curl -OL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.tar.xz
+mkdir -p ~/.local/share/fonts/JetBrainsMonoNerd
+tar -xJkf JetBrainsMono.tar.xz -C ~/.local/share/fonts/JetBrainsMonoNerd
+fc-cache -v
 
 pip3 install pywal
 wal -i ~/dotfiles/wallpaper/
