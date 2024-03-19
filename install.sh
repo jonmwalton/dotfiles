@@ -4,7 +4,6 @@ swww
 hyprland
 stow
 default-fonts
-lxappearance
 ImageMagick
 python3-pip
 swayidle
@@ -17,3 +16,13 @@ fontawesome-fonts
 
 pip3 install pywal
 wal -i ~/dotfiles/wallpaper/
+
+cd ~
+git clone https://github.com/vinceliuice/Orchis-theme.git
+cd Orchis-theme
+./install
+
+cd ~
+git clone https://github.com/vinceliuice/Tela-icon-theme.git
+cd Tela-icon-theme
+./install

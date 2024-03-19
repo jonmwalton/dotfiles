@@ -47,7 +47,7 @@
 
     // Modules Right    
     "modules-right": [
-        "custom/updates",
+        //"custom/updates",
         "pulseaudio",
         // START BT TOOGLE
         "bluetooth",
