@@ -12,6 +12,8 @@
 # Cache file for holding the current wallpaper
 cache_file="$HOME/.cache/current_wallpaper"
 rasi_file="$HOME/.cache/current_wallpaper.rasi"
+blurred="$HOME/.cache/blurred_wallpaper.png"
+blur="50x30"
 
 # Create cache file if not exists
 if [ ! -f $cache_file ] ;then
@@ -94,6 +96,18 @@ swww img $wallpaper \
     --transition-type=$transition_type \
     --transition-duration=0.7 \
     --transition-pos "$( hyprctl cursorpos )"
+
+
+# ----------------------------------------------------- 
+# Created blurred wallpaper
+# -----------------------------------------------------
+magick $wallpaper -resize 75% $blurred
+echo ":: Resized to 75%"
+if [ ! "$blur" == "0x0" ] ;then
+    magick $blurred -blur $blur $blurred
+    echo ":: Blurred"
+fi
+
 
 # ----------------------------------------------------- 
 # Send notification

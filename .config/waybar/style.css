@@ -136,8 +136,8 @@ window#waybar.empty #window {
 #taskbar {
     /*background: @backgroundlight;
     background: @workspacesbackground1;*/
-    margin: 3px 15px 3px 0px;
-    padding:0px;
+    margin: 3px 15px 3px 20px;
+    padding-left:0px;
     border-radius: 15px;
     font-weight: normal;
     font-style: normal;
@@ -257,10 +257,11 @@ window#waybar.empty #window {
  * ----------------------------------------------------- */
 
 #custom-exit {
-    margin: 0px 20px 0px 0px;
+    margin: 0px 10px 0px 0px;
     padding:0px;
     font-size:16px;
     color: @iconcolor;
+    opacity: 0.8;
 }
 
 /* -----------------------------------------------------
@@ -314,6 +315,7 @@ window#waybar.empty #window {
     padding:0px;
     font-size:16px;
     color:@iconcolor;
+    opacity: 0.8;
 }
 
 #language {
@@ -327,11 +329,12 @@ window#waybar.empty #window {
 #clock {
     background-color: transparent;
     font-size: 16px;
-    font-weight: bold;
+    /*font-weight: bold;*/
     color: @textcolor2;
-    border-radius: 15px;
+    /*border-radius: 15px;
     padding: 1px 10px 0px 10px;
-    margin: 3px 15px 3px 0px;
+    margin: 3px 15px 3px 0px;*/
+    padding-right: 10px;
     opacity:0.8;
     /*border:3px solid @bordercolor;   */
 }

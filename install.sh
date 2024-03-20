@@ -1,8 +1,10 @@
-sudo dnf copr enable alebastr/sway-extras
-sudo dnf copr enable eddsalkield/swaylock-effects
+
+sudo sudo dnf copr enable solopasha/hyprland
 
 swww
 hyprland
+hyprlock
+hypridle
 stow
 default-fonts
 ImageMagick
