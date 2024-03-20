@@ -34,17 +34,17 @@
 
 
 * {
-    font-family: "JetBrains Mono Nerd Font", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-family: "Noto Sans", "JetBrains Mono Nerd Font", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
     font-size: 10px;
     border: none;
     border-radius: 0px;
 }
 
 window#waybar {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.3);
     border-bottom: 0px solid #ffffff;
     /* color: #FFFFFF; */
-    background: transparent;
+    background: rgba(0,0,0,0.3);/*transparent;*/
     transition-property: background-color;
     transition-duration: .5s;
 }
@@ -54,7 +54,7 @@ window#waybar {
  * ----------------------------------------------------- */
 
 #workspaces {
-    background: @workspacesbackground1;
+    /*background: @workspacesbackground1;*/
     margin: 2px 1px 3px 1px;
     padding: 0px 1px;
     border-radius: 15px;
@@ -134,7 +134,8 @@ window#waybar.empty #window {
  * ----------------------------------------------------- */
 
 #taskbar {
-    background: @backgroundlight;
+    /*background: @backgroundlight;
+    background: @workspacesbackground1;*/
     margin: 3px 15px 3px 0px;
     padding:0px;
     border-radius: 15px;
@@ -155,7 +156,7 @@ window#waybar.empty #window {
  * ----------------------------------------------------- */
 
 .modules-left > widget:first-child > #workspaces {
-    margin-left: 0;
+    margin-left: 10;
 }
 
 .modules-right > widget:last-child > #workspaces {
@@ -343,9 +344,9 @@ window#waybar.empty #window {
     background-color: transparent;
     font-size: 16px;
     color: @textcolor2;
-    border-radius: 15px;
+    /*border-radius: 15px;
     padding: 2px 10px 0px 10px;
-    margin: 5px 15px 5px 0px;
+    margin: 5px 15px 5px 0px;*/
     opacity:0.8;
 }
 
@@ -362,9 +363,9 @@ window#waybar.empty #window {
     background-color: transparent;
     font-size: 16px;
     color: @textcolor2;
-    border-radius: 15px;
+    /*border-radius: 15px;
     padding: 2px 10px 0px 10px;
-    margin: 5px 15px 5px 0px;
+    margin: 5px 15px 5px 0px;*/
     opacity:0.8;
 }
 
@@ -386,9 +387,9 @@ window#waybar.empty #window {
     background-color: transparent;
     font-size: 16px;
     color: @textcolor2;
-    border-radius: 15px;
+    /*border-radius: 15px;
     padding: 2px 10px 0px 10px;
-    margin: 5px 15px 5px 0px;
+    margin: 5px 15px 5px 0px;*/
     opacity:0.8;
 }
 

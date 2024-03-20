@@ -1,4 +1,5 @@
 sudo dnf copr enable alebastr/sway-extras
+sudo dnf copr enable eddsalkield/swaylock-effects
 
 swww
 hyprland
@@ -10,7 +11,7 @@ swayidle
 wlogout
 codium
 gtk-murrine-engine
-pulseaudio
+pipewire-alsa
 fontawesome-fonts
 
 curl -OL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.tar.xz

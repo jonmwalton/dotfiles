@@ -13,7 +13,7 @@
 
     // Position TOP
     "layer": "top",
-    "margin-top": 10,
+    "margin-top": 0,
     "margin-bottom": 0,
 
     // Position BOTTOM
@@ -24,19 +24,19 @@
     "layer": "top",
     "margin-left": 0,
     "margin-right": 0,    
-    "spacing": 0,
+    "spacing": 10,
 
     // Load Modules
     "include": ["~/dotfiles/.config/waybar/modules.json"],
 
     // Modules Left
     "modules-left": [
-        "custom/appmenu",
-        "group/settings",
+       // "custom/appmenu",
+       // "group/settings",
         // START TASK TOOGLE
-        "wlr/taskbar",
+        "wlr/taskbar"
         // END TASK TOOGLE
-        "group/quicklinks"//,
+       // "group/quicklinks"//,
         //"hyprland/window"
     ],
 
@@ -59,12 +59,12 @@
         //"group/hardware",
         "cpu",
         "memory",
-        "custom/cliphist",
+        //"custom/cliphist",
         // START IDLE TOOGLE
         "idle_inhibitor",
         // END IDLE TOOGLE
         // START TRAY TOOGLE
-        "tray",
+        //"tray",
         // END TRAY TOOGLE
         "custom/exit",
         "clock"
