@@ -9,12 +9,12 @@ stow
 default-fonts
 ImageMagick
 python3-pip
-swayidle
 wlogout
 codium
 gtk-murrine-engine
 pipewire-alsa
 fontawesome-fonts
+htop
 
 curl -OL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.tar.xz
 mkdir -p ~/.local/share/fonts/JetBrainsMonoNerd

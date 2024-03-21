@@ -24,7 +24,7 @@
     "layer": "top",
     "margin-left": 0,
     "margin-right": 0,    
-    "spacing": 10,
+    "spacing": 15,
 
     // Load Modules
     "include": ["~/dotfiles/.config/waybar/modules.json"],
@@ -47,6 +47,9 @@
 
     // Modules Right    
     "modules-right": [
+        "cpu",
+        "memory",
+        "temperature",
         //"custom/updates",
         "pulseaudio",
         // START BT TOOGLE
@@ -57,8 +60,7 @@
         "network",
         // END NETWORK TOOGLE
         //"group/hardware",
-        "cpu",
-        "memory",
+        
         //"custom/cliphist",
         // START IDLE TOOGLE
         "idle_inhibitor",
