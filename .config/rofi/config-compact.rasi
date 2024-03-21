@@ -28,7 +28,7 @@ configuration {
 }
 
 /* ---- Load pywal colors (custom wal template) ---- */
-@import "~/.cache/wal/colors-rofi-pywal"
+@import "~/.cache/wal/colors-rofi-dark"
 @import "~/.cache/current_wallpaper.rasi"
 @import "~/dotfiles/.settings/rofi-border.rasi"
 

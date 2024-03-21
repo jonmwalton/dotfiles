@@ -137,12 +137,16 @@ window#waybar.empty #window {
     /*background: @backgroundlight;
     background: @workspacesbackground1;*/
     margin: 3px 15px 3px 20px;
-    padding-left:0px;
+    padding-top: 0px;
     border-radius: 15px;
+    border: 0px;
+    /*margin: 3px 15px 3px 20px;
+    padding-left:0px;
+    border-radius: 15px;*/
     font-weight: normal;
     font-style: normal;
     opacity:0.8;
-    border: 3px solid @backgroundlight;
+    /*border: 2px solid @workspacesbackground2;*/
 }
 
 #taskbar button {
@@ -315,6 +319,7 @@ window#waybar.empty #window {
     padding:0px;
     font-size:16px;
     color:@iconcolor;
+    font-weight: bold;
     opacity: 0.8;
 }
 
@@ -329,7 +334,7 @@ window#waybar.empty #window {
 #clock {
     background-color: transparent;
     font-size: 16px;
-    /*font-weight: bold;*/
+    font-weight: bold;
     color: @textcolor2;
     /*border-radius: 15px;
     padding: 1px 10px 0px 10px;
@@ -346,6 +351,7 @@ window#waybar.empty #window {
 #pulseaudio {
     background-color: transparent;
     font-size: 16px;
+    font-weight: bold;
     color: @textcolor2;
     /*border-radius: 15px;
     padding: 2px 10px 0px 10px;
@@ -365,6 +371,7 @@ window#waybar.empty #window {
 #network {
     background-color: transparent;
     font-size: 16px;
+    font-weight: bold;
     color: @textcolor2;
     /*border-radius: 15px;
     padding: 2px 10px 0px 10px;
@@ -389,6 +396,7 @@ window#waybar.empty #window {
 #bluetooth, #bluetooth.on, #bluetooth.connected {
     background-color: transparent;
     font-size: 16px;
+    font-weight: bold;
     color: @textcolor2;
     /*border-radius: 15px;
     padding: 2px 10px 0px 10px;
