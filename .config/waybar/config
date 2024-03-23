@@ -50,7 +50,7 @@
         "cpu",
         "memory",
         "temperature",
-        //"custom/updates",
+        "custom/notification",
         "pulseaudio",
         // START BT TOOGLE
         //"bluetooth",

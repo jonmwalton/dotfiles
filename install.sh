@@ -1,7 +1,9 @@
 
-sudo sudo dnf copr enable solopasha/hyprland
+sudo dnf copr enable solopasha/hyprland
+sudo dnf copr enable erikreider/SwayNotificationCenter
 
 swww
+SwayNotificationCenter
 hyprland
 hyprlock
 hypridle
