@@ -55,6 +55,8 @@ for PKG1 in "${packages[@]}"; do
   fi
 done
 
+rm ~/.bashrc
+stow .
 
 curl -OL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.tar.xz
 mkdir -p ~/.local/share/fonts/JetBrainsMonoNerd
