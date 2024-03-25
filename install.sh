@@ -17,6 +17,7 @@ gtk-murrine-engine
 pipewire-alsa
 fontawesome-fonts
 htop
+xarchiver
 
 curl -OL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.tar.xz
 mkdir -p ~/.local/share/fonts/JetBrainsMonoNerd
