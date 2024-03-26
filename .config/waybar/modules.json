@@ -283,7 +283,8 @@
             "custom/system",
             //"disk",
             "cpu",
-            "memory"
+            "memory",
+            "temperature"
             //"hyprland/language"
         ]
     },
