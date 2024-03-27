@@ -34,7 +34,7 @@
 
 
 * {
-    font-family: "Noto Sans", "JetBrains Mono Nerd Font", "FontAwesome 6", Roboto, Helvetica, Arial, sans-serif;
+    font-family: "Noto Sans", "JetBrains Mono Nerd Font", "FontAwesome", Roboto, Helvetica, Arial, sans-serif;
     font-size: 10px;
     border: none;
     border-radius: 0px;
@@ -134,7 +134,7 @@ window#waybar.empty #window {
  * ----------------------------------------------------- */
 
 #taskbar {
-    background: @backgroundlight;
+    
     background: @workspacesbackground1;
     margin: 3px 15px 3px 20px;
     padding-top: 0px;
@@ -315,31 +315,31 @@ window#waybar.empty #window {
  * ----------------------------------------------------- */
 
 /*#disk,#memory,#cpu,#language, #temperature {*/
-#hardware {
+    #hardware {
     
-    font-size:16px;
-    color:@iconcolor;
-    font-weight: bold;
-    opacity: 0.8;
-    padding: 0px 5px 0px 15px;
-    margin: 4px 3px;
-    border-radius: 15px;
-    border: 0px;
-    background-color: @backgroundlight;
-}
-
-#disk,#memory,#cpu,#language, #temperature {
-        margin:0px;
-        padding:5px;
         font-size:16px;
         color:@iconcolor;
         font-weight: bold;
         opacity: 0.8;
-/*        border-radius: 15px;
-        padding: 1px 10px 0px 10px;
-        margin: 3px 15px 3px 0px;
-        background-color: @backgroundlight;*/
+        padding: 0px 5px 0px 15px;
+        margin: 4px 3px;
+        border-radius: 15px;
+        border: 0px;
+        background-color: @backgroundlight;
     }
+    
+    #disk,#memory,#cpu,#language, #temperature {
+            margin:0px;
+            padding:5px;
+            font-size:16px;
+            color:@iconcolor;
+            font-weight: bold;
+            opacity: 0.8;
+    /*        border-radius: 15px;
+            padding: 1px 10px 0px 10px;
+            margin: 3px 15px 3px 0px;
+            background-color: @backgroundlight;*/
+        }
 
 #language {
     margin-right:10px;

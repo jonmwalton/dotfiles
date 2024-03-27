@@ -48,7 +48,7 @@ packages=(
     lxpolkit
     pavucontrol
     network-manager-applet
-    rofi
+    rofi-wayland
     nwg-displays
 )
 
