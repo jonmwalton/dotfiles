@@ -1,0 +1,1278 @@
+ Installing swww ...
+Last metadata expiration check: 0:00:02 ago on Mon 25 Mar 2024 12:19:19 GMT.
+Last metadata expiration check: 0:00:02 ago on Mon 25 Mar 2024 12:19:19 GMT.
+allow_vendor_change is disabled. This option is currently not supported for downgrade and distro-sync commands
+allow_vendor_change is disabled. This option is currently not supported for downgrade and distro-sync commands
+Dependencies resolved.
+Dependencies resolved.
+======================================================================================
+ Package
+        Arch     Version      Repository                                          Size
+======================================================================================
+Installing:
+ swww   aarch64  0.9.1-1.fc39 copr:copr.fedorainfracloud.org:solopasha:hyprland  1.3 M
+
+Transaction Summary
+======================================================================================
+Install  1 Package
+
+======================================================================================
+ Package
+        Arch     Version      Repository                                          Size
+======================================================================================
+Installing:
+ swww   aarch64  0.9.1-1.fc39 copr:copr.fedorainfracloud.org:solopasha:hyprland  1.3 M
+
+Transaction Summary
+======================================================================================
+Install  1 Package
+
+Total download size: 1.3 M
+Total download size: 1.3 M
+Installed size: 3.8 M
+Installed size: 3.8 M
+Downloading Packages:
+Downloading Packages:
+swww-0.9.1-1.fc39.aarch64.rpm                   1.5 MB/s | 1.3 MB     00:00    
+swww-0.9.1-1.fc39.aarch64.rpm                   1.5 MB/s | 1.3 MB     00:00    
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Total                                           1.5 MB/s | 1.3 MB     00:00     
+Total                                           1.5 MB/s | 1.3 MB     00:00     
+Copr repo for hyprland owned by solopasha       8.0 kB/s | 1.0 kB     00:00    
+Copr repo for hyprland owned by solopasha       8.0 kB/s | 1.0 kB     00:00    
+Importing GPG key 0x2961581B:
+ Userid     : "solopasha_hyprland (None) <solopasha#hyprland@copr.fedorahosted.org>"
+ Fingerprint: E4B8 A8F1 C076 DAED 866D 8F05 9FFA F936 2961 581B
+ From       : https://download.copr.fedorainfracloud.org/results/solopasha/hyprland/pubkey.gpg
+Importing GPG key 0x2961581B:
+ Userid     : "solopasha_hyprland (None) <solopasha#hyprland@copr.fedorahosted.org>"
+ Fingerprint: E4B8 A8F1 C076 DAED 866D 8F05 9FFA F936 2961 581B
+ From       : https://download.copr.fedorainfracloud.org/results/solopasha/hyprland/pubkey.gpg
+Key imported successfully
+Key imported successfully
+Running transaction check
+Running transaction check
+Transaction check succeeded.
+Transaction check succeeded.
+Running transaction test
+Running transaction test
+Transaction test succeeded.
+Transaction test succeeded.
+Running transaction
+Running transaction
+  Preparing        :                                                        1/1  Preparing        :                                                        1/1 
+  Installing       : swww-0.9.1-1.fc39.aarch64                              1/1 
+  Installing       : swww-0.9.1-1.fc39.aarch64                              1/1 
+  Running scriptlet: swww-0.9.1-1.fc39.aarch64                              1/1 
+  Running scriptlet: swww-0.9.1-1.fc39.aarch64                              1/1 
+  Verifying        : swww-0.9.1-1.fc39.aarch64                              1/1 
+  Verifying        : swww-0.9.1-1.fc39.aarch64                              1/1 
+
+Installed:
+  swww-0.9.1-1.fc39.aarch64                                                     
+
+Complete!
+ 
+
+Installed:
+  swww-0.9.1-1.fc39.aarch64                                                     
+
+Complete!
+[1A[K swww was installed.
+ Installing SwayNotificationCenter ...
+Last metadata expiration check: 0:00:05 ago on Mon 25 Mar 2024 12:19:19 GMT.
+Last metadata expiration check: 0:00:05 ago on Mon 25 Mar 2024 12:19:19 GMT.
+allow_vendor_change is disabled. This option is currently not supported for downgrade and distro-sync commands
+allow_vendor_change is disabled. This option is currently not supported for downgrade and distro-sync commands
+Dependencies resolved.
+Dependencies resolved.
+========================================================================================================================
+ Package                  Arch     Version       Repository                                                         Size
+========================================================================================================================
+Installing:
+ SwayNotificationCenter   aarch64  0.10.1-1.fc39 copr:copr.fedorainfracloud.org:erikreider:SwayNotificationCenter  215 k
+Installing dependencies:
+ granite                  aarch64  6.2.0-5.fc39  fedora                                                            330 k
+ gvfs                     aarch64  1.52.2-1.fc39 updates                                                           352 k
+ gvfs-client              aarch64  1.52.2-1.fc39 updates                                                           756 k
+ libgee                   aarch64  0.20.6-3.fc39 fedora                                                            269 k
+
+Transaction Summary
+========================================================================================================================
+Install  5 Packages
+
+========================================================================================================================
+ Package                  Arch     Version       Repository                                                         Size
+========================================================================================================================
+Installing:
+ SwayNotificationCenter   aarch64  0.10.1-1.fc39 copr:copr.fedorainfracloud.org:erikreider:SwayNotificationCenter  215 k
+Installing dependencies:
+ granite                  aarch64  6.2.0-5.fc39  fedora                                                            330 k
+ gvfs                     aarch64  1.52.2-1.fc39 updates                                                           352 k
+ gvfs-client              aarch64  1.52.2-1.fc39 updates                                                           756 k
+ libgee                   aarch64  0.20.6-3.fc39 fedora                                                            269 k
+
+Transaction Summary
+========================================================================================================================
+Install  5 Packages
+
+Total download size: 1.9 M
+Total download size: 1.9 M
+Installed size: 11 M
+Installed size: 11 M
+Downloading Packages:
+Downloading Packages:
+(1/5): SwayNotificationCenter-0.10.1-1.fc39.aar 451 kB/s | 215 kB     00:00    
+(1/5): SwayNotificationCenter-0.10.1-1.fc39.aar 451 kB/s | 215 kB     00:00    
+(2/5): libgee-0.20.6-3.fc39.aarch64.rpm         480 kB/s | 269 kB     00:00    
+(2/5): libgee-0.20.6-3.fc39.aarch64.rpm         480 kB/s | 269 kB     00:00    
+(3/5): granite-6.2.0-5.fc39.aarch64.rpm         523 kB/s | 330 kB     00:00    
+(3/5): granite-6.2.0-5.fc39.aarch64.rpm         523 kB/s | 330 kB     00:00    
+(4/5): gvfs-client-1.52.2-1.fc39.aarch64.rpm    2.1 MB/s | 756 kB     00:00    
+(4/5): gvfs-client-1.52.2-1.fc39.aarch64.rpm    2.1 MB/s | 756 kB     00:00    
+(5/5): gvfs-1.52.2-1.fc39.aarch64.rpm           710 kB/s | 352 kB     00:00    
+(5/5): gvfs-1.52.2-1.fc39.aarch64.rpm           710 kB/s | 352 kB     00:00    
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Total                                           847 kB/s | 1.9 MB     00:02     
+Total                                           847 kB/s | 1.9 MB     00:02     
+Copr repo for SwayNotificationCenter owned by e 8.2 kB/s | 1.0 kB     00:00    
+Copr repo for SwayNotificationCenter owned by e 8.2 kB/s | 1.0 kB     00:00    
+Importing GPG key 0x307F80B9:
+ Userid     : "erikreider_SwayNotificationCenter (None) <erikreider#SwayNotificationCenter@copr.fedorahosted.org>"
+ Fingerprint: 4EAD DC9B C994 C0AA A213 3F65 76EB F162 307F 80B9
+ From       : https://download.copr.fedorainfracloud.org/results/erikreider/SwayNotificationCenter/pubkey.gpg
+Importing GPG key 0x307F80B9:
+ Userid     : "erikreider_SwayNotificationCenter (None) <erikreider#SwayNotificationCenter@copr.fedorahosted.org>"
+ Fingerprint: 4EAD DC9B C994 C0AA A213 3F65 76EB F162 307F 80B9
+ From       : https://download.copr.fedorainfracloud.org/results/erikreider/SwayNotificationCenter/pubkey.gpg
+Key imported successfully
+Key imported successfully
+Running transaction check
+Running transaction check
+Transaction check succeeded.
+Transaction check succeeded.
+Running transaction test
+Running transaction test
+Transaction test succeeded.
+Transaction test succeeded.
+Running transaction
+Running transaction
+  Preparing        :                                                        1/1  Preparing        :                                                        1/1 
+  Installing       : libgee-0.20.6-3.fc39.aarch64                           1/5 
+  Installing       : libgee-0.20.6-3.fc39.aarch64                           1/5 
+  Installing       : granite-6.2.0-5.fc39.aarch64                           2/5 
+  Installing       : granite-6.2.0-5.fc39.aarch64                           2/5 
+  Installing       : gvfs-client-1.52.2-1.fc39.aarch64                      3/5 
+  Installing       : gvfs-client-1.52.2-1.fc39.aarch64                      3/5 
+  Installing       : gvfs-1.52.2-1.fc39.aarch64                             4/5 
+  Installing       : gvfs-1.52.2-1.fc39.aarch64                             4/5 
+  Running scriptlet: gvfs-1.52.2-1.fc39.aarch64                             4/5 
+  Running scriptlet: gvfs-1.52.2-1.fc39.aarch64                             4/5 
+  Installing       : SwayNotificationCenter-0.10.1-1.fc39.aarch64           5/5 
+  Installing       : SwayNotificationCenter-0.10.1-1.fc39.aarch64           5/5 
+  Running scriptlet: SwayNotificationCenter-0.10.1-1.fc39.aarch64           5/5 
+  Running scriptlet: SwayNotificationCenter-0.10.1-1.fc39.aarch64           5/5 
+  Verifying        : SwayNotificationCenter-0.10.1-1.fc39.aarch64           1/5 
+  Verifying        : granite-6.2.0-5.fc39.aarch64                           2/5 
+  Verifying        : libgee-0.20.6-3.fc39.aarch64                           3/5 
+  Verifying        : gvfs-1.52.2-1.fc39.aarch64                             4/5 
+  Verifying        : gvfs-client-1.52.2-1.fc39.aarch64                      5/5 
+  Verifying        : SwayNotificationCenter-0.10.1-1.fc39.aarch64           1/5 
+  Verifying        : granite-6.2.0-5.fc39.aarch64                           2/5 
+  Verifying        : libgee-0.20.6-3.fc39.aarch64                           3/5 
+  Verifying        : gvfs-1.52.2-1.fc39.aarch64                             4/5 
+  Verifying        : gvfs-client-1.52.2-1.fc39.aarch64                      5/5 
+
+Installed:
+  SwayNotificationCenter-0.10.1-1.fc39.aarch64                                  
+  granite-6.2.0-5.fc39.aarch64                                                  
+  gvfs-1.52.2-1.fc39.aarch64                                                    
+  gvfs-client-1.52.2-1.fc39.aarch64                                             
+  libgee-0.20.6-3.fc39.aarch64                                                  
+
+Complete!
+ 
+
+Installed:
+  SwayNotificationCenter-0.10.1-1.fc39.aarch64                                  
+  granite-6.2.0-5.fc39.aarch64                                                  
+  gvfs-1.52.2-1.fc39.aarch64                                                    
+  gvfs-client-1.52.2-1.fc39.aarch64                                             
+  libgee-0.20.6-3.fc39.aarch64                                                  
+
+Complete!
+[1A[K SwayNotificationCenter was installed.
+ Installing hyprland ...
+Last metadata expiration check: 0:00:10 ago on Mon 25 Mar 2024 12:19:19 GMT.
+Last metadata expiration check: 0:00:10 ago on Mon 25 Mar 2024 12:19:19 GMT.
+allow_vendor_change is disabled. This option is currently not supported for downgrade and distro-sync commands
+allow_vendor_change is disabled. This option is currently not supported for downgrade and distro-sync commands
+Dependencies resolved.
+Dependencies resolved.
+===============================================================================================================
+ Package                       Arch     Version        Repository                                          Size
+===============================================================================================================
+Installing:
+ hyprland                      aarch64  0.37.1-1.fc39  copr:copr.fedorainfracloud.org:solopasha:hyprland   46 M
+Installing dependencies:
+ hyprcursor                    aarch64  0.1.5-1.fc39   copr:copr.fedorainfracloud.org:solopasha:hyprland   96 k
+ hyprlang                      aarch64  0.5.0-1.fc39   copr:copr.fedorainfracloud.org:solopasha:hyprland   83 k
+ kitty-kitten                  aarch64  0.33.1-1.fc39  copr:copr.fedorainfracloud.org:solopasha:hyprland  4.6 M
+ kitty-shell-integration       noarch   0.33.1-1.fc39  copr:copr.fedorainfracloud.org:solopasha:hyprland   43 k
+ kitty-terminfo                noarch   0.33.1-1.fc39  copr:copr.fedorainfracloud.org:solopasha:hyprland   21 k
+ libdisplay-info               aarch64  0.1.1-2.fc39   fedora                                              83 k
+ libliftoff                    aarch64  0.4.1-1.fc39   fedora                                              25 k
+ tomlplusplus                  aarch64  3.4.0-1.fc39   updates                                             98 k
+ wlr-randr                     aarch64  0.4.1-1.fc39   updates                                             21 k
+Installing weak dependencies:
+ brightnessctl                 aarch64  0.5.1-11.fc39  updates                                             21 k
+ hyprpicker                    aarch64  0.2.0-2.fc39   copr:copr.fedorainfracloud.org:solopasha:hyprland   32 k
+ kitty                         aarch64  0.33.1-1.fc39  copr:copr.fedorainfracloud.org:solopasha:hyprland  1.8 M
+ nwg-panel                     noarch   0.9.25-1.fc39  updates                                            416 k
+ pulseaudio-utils              aarch64  16.1-5.fc39    fedora                                              80 k
+ python3-netifaces             aarch64  0.11.0-7.fc39  fedora                                              22 k
+ ripgrep                       aarch64  14.1.0-2.fc39  updates                                            1.5 M
+ wl-clipboard                  aarch64  2.2.1-1.fc39   updates                                             57 k
+ wofi                          aarch64  1.3-3.fc39     fedora                                              78 k
+ xdg-desktop-portal-hyprland   aarch64  1:1.3.1-4.fc39 copr:copr.fedorainfracloud.org:solopasha:hyprland  222 k
+
+Transaction Summary
+===============================================================================================================
+Install  20 Packages
+
+===============================================================================================================
+ Package                       Arch     Version        Repository                                          Size
+===============================================================================================================
+Installing:
+ hyprland                      aarch64  0.37.1-1.fc39  copr:copr.fedorainfracloud.org:solopasha:hyprland   46 M
+Installing dependencies:
+ hyprcursor                    aarch64  0.1.5-1.fc39   copr:copr.fedorainfracloud.org:solopasha:hyprland   96 k
+ hyprlang                      aarch64  0.5.0-1.fc39   copr:copr.fedorainfracloud.org:solopasha:hyprland   83 k
+ kitty-kitten                  aarch64  0.33.1-1.fc39  copr:copr.fedorainfracloud.org:solopasha:hyprland  4.6 M
+ kitty-shell-integration       noarch   0.33.1-1.fc39  copr:copr.fedorainfracloud.org:solopasha:hyprland   43 k
+ kitty-terminfo                noarch   0.33.1-1.fc39  copr:copr.fedorainfracloud.org:solopasha:hyprland   21 k
+ libdisplay-info               aarch64  0.1.1-2.fc39   fedora                                              83 k
+ libliftoff                    aarch64  0.4.1-1.fc39   fedora                                              25 k
+ tomlplusplus                  aarch64  3.4.0-1.fc39   updates                                             98 k
+ wlr-randr                     aarch64  0.4.1-1.fc39   updates                                             21 k
+Installing weak dependencies:
+ brightnessctl                 aarch64  0.5.1-11.fc39  updates                                             21 k
+ hyprpicker                    aarch64  0.2.0-2.fc39   copr:copr.fedorainfracloud.org:solopasha:hyprland   32 k
+ kitty                         aarch64  0.33.1-1.fc39  copr:copr.fedorainfracloud.org:solopasha:hyprland  1.8 M
+ nwg-panel                     noarch   0.9.25-1.fc39  updates                                            416 k
+ pulseaudio-utils              aarch64  16.1-5.fc39    fedora                                              80 k
+ python3-netifaces             aarch64  0.11.0-7.fc39  fedora                                              22 k
+ ripgrep                       aarch64  14.1.0-2.fc39  updates                                            1.5 M
+ wl-clipboard                  aarch64  2.2.1-1.fc39   updates                                             57 k
+ wofi                          aarch64  1.3-3.fc39     fedora                                              78 k
+ xdg-desktop-portal-hyprland   aarch64  1:1.3.1-4.fc39 copr:copr.fedorainfracloud.org:solopasha:hyprland  222 k
+
+Transaction Summary
+===============================================================================================================
+Install  20 Packages
+
+Total download size: 55 M
+Total download size: 55 M
+Installed size: 86 M
+Installed size: 86 M
+Downloading Packages:
+Downloading Packages:
+(1/20): hyprlang-0.5.0-1.fc39.aarch64.rpm       253 kB/s |  83 kB     00:00    
+(1/20): hyprlang-0.5.0-1.fc39.aarch64.rpm       253 kB/s |  83 kB     00:00    
+(2/20): hyprcursor-0.1.5-1.fc39.aarch64.rpm     282 kB/s |  96 kB     00:00    
+(2/20): hyprcursor-0.1.5-1.fc39.aarch64.rpm     282 kB/s |  96 kB     00:00    
+(3/20): hyprpicker-0.2.0-2.fc39.aarch64.rpm     225 kB/s |  32 kB     00:00    
+(3/20): hyprpicker-0.2.0-2.fc39.aarch64.rpm     225 kB/s |  32 kB     00:00    
+(4/20): kitty-0.33.1-1.fc39.aarch64.rpm         4.2 MB/s | 1.8 MB     00:00    
+(4/20): kitty-0.33.1-1.fc39.aarch64.rpm         4.2 MB/s | 1.8 MB     00:00    
+(5/20): kitty-shell-integration-0.33.1-1.fc39.n  67 kB/s |  43 kB     00:00    
+(5/20): kitty-shell-integration-0.33.1-1.fc39.n  67 kB/s |  43 kB     00:00    
+(6/20): kitty-kitten-0.33.1-1.fc39.aarch64.rpm  4.8 MB/s | 4.6 MB     00:00    
+(6/20): kitty-kitten-0.33.1-1.fc39.aarch64.rpm  4.8 MB/s | 4.6 MB     00:00    
+(7/20): kitty-terminfo-0.33.1-1.fc39.noarch.rpm 164 kB/s |  21 kB     00:00    
+(7/20): kitty-terminfo-0.33.1-1.fc39.noarch.rpm 164 kB/s |  21 kB     00:00    
+(8/20): libdisplay-info-0.1.1-2.fc39.aarch64.rp 258 kB/s |  83 kB     00:00    
+(8/20): libdisplay-info-0.1.1-2.fc39.aarch64.rp 258 kB/s |  83 kB     00:00    
+(9/20): xdg-desktop-portal-hyprland-1.3.1-4.fc3 481 kB/s | 222 kB     00:00    
+(9/20): xdg-desktop-portal-hyprland-1.3.1-4.fc3 481 kB/s | 222 kB     00:00    
+(10/20): libliftoff-0.4.1-1.fc39.aarch64.rpm    309 kB/s |  25 kB     00:00    
+(10/20): libliftoff-0.4.1-1.fc39.aarch64.rpm    309 kB/s |  25 kB     00:00    
+(11/20): python3-netifaces-0.11.0-7.fc39.aarch6 250 kB/s |  22 kB     00:00    
+(11/20): python3-netifaces-0.11.0-7.fc39.aarch6 250 kB/s |  22 kB     00:00    
+(12/20): wofi-1.3-3.fc39.aarch64.rpm            489 kB/s |  78 kB     00:00    
+(12/20): wofi-1.3-3.fc39.aarch64.rpm            489 kB/s |  78 kB     00:00    
+(13/20): brightnessctl-0.5.1-11.fc39.aarch64.rp 245 kB/s |  21 kB     00:00    
+(13/20): brightnessctl-0.5.1-11.fc39.aarch64.rp 245 kB/s |  21 kB     00:00    
+(14/20): pulseaudio-utils-16.1-5.fc39.aarch64.r 209 kB/s |  80 kB     00:00    
+(14/20): pulseaudio-utils-16.1-5.fc39.aarch64.r 209 kB/s |  80 kB     00:00    
+(15/20): nwg-panel-0.9.25-1.fc39.noarch.rpm     1.2 MB/s | 416 kB     00:00    
+(15/20): nwg-panel-0.9.25-1.fc39.noarch.rpm     1.2 MB/s | 416 kB     00:00    
+(16/20): tomlplusplus-3.4.0-1.fc39.aarch64.rpm  432 kB/s |  98 kB     00:00    
+(16/20): tomlplusplus-3.4.0-1.fc39.aarch64.rpm  432 kB/s |  98 kB     00:00    
+(17/20): ripgrep-14.1.0-2.fc39.aarch64.rpm      2.5 MB/s | 1.5 MB     00:00    
+(17/20): ripgrep-14.1.0-2.fc39.aarch64.rpm      2.5 MB/s | 1.5 MB     00:00    
+(18/20): wlr-randr-0.4.1-1.fc39.aarch64.rpm     288 kB/s |  21 kB     00:00    
+(18/20): wlr-randr-0.4.1-1.fc39.aarch64.rpm     288 kB/s |  21 kB     00:00    
+(19/20): wl-clipboard-2.2.1-1.fc39.aarch64.rpm  668 kB/s |  57 kB     00:00    
+(19/20): wl-clipboard-2.2.1-1.fc39.aarch64.rpm  668 kB/s |  57 kB     00:00    
+(20/20): hyprland-0.37.1-1.fc39.aarch64.rpm     7.0 MB/s |  46 MB     00:06    
+(20/20): hyprland-0.37.1-1.fc39.aarch64.rpm     7.0 MB/s |  46 MB     00:06    
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Total                                           7.0 MB/s |  55 MB     00:07     
+Total                                           7.0 MB/s |  55 MB     00:07     
+Running transaction check
+Running transaction check
+Transaction check succeeded.
+Transaction check succeeded.
+Running transaction test
+Running transaction test
+Transaction test succeeded.
+Transaction test succeeded.
+Running transaction
+Running transaction
+  Preparing        :                                                        1/1  Preparing        :                                                        1/1 
+  Installing       : hyprlang-0.5.0-1.fc39.aarch64                         1/20 
+  Installing       : hyprlang-0.5.0-1.fc39.aarch64                         1/20 
+  Installing       : kitty-kitten-0.33.1-1.fc39.aarch64                    2/20 
+  Installing       : kitty-kitten-0.33.1-1.fc39.aarch64                    2/20 
+  Installing       : kitty-shell-integration-0.33.1-1.fc39.noarch          3/20 
+  Installing       : kitty-shell-integration-0.33.1-1.fc39.noarch          3/20 
+  Installing       : hyprcursor-0.1.5-1.fc39.aarch64                       4/20 
+  Installing       : hyprcursor-0.1.5-1.fc39.aarch64                       4/20 
+  Installing       : wlr-randr-0.4.1-1.fc39.aarch64                        5/20 
+  Installing       : wlr-randr-0.4.1-1.fc39.aarch64                        5/20 
+  Installing       : wl-clipboard-2.2.1-1.fc39.aarch64                     6/20 
+  Installing       : wl-clipboard-2.2.1-1.fc39.aarch64                     6/20 
+  Installing       : hyprpicker-0.2.0-2.fc39.aarch64                       7/20 
+  Installing       : hyprpicker-0.2.0-2.fc39.aarch64                       7/20 
+  Installing       : xdg-desktop-portal-hyprland-1:1.3.1-4.fc39.aarch64    8/20 
+  Installing       : xdg-desktop-portal-hyprland-1:1.3.1-4.fc39.aarch64    8/20 
+  Running scriptlet: xdg-desktop-portal-hyprland-1:1.3.1-4.fc39.aarch64    8/20 
+  Running scriptlet: xdg-desktop-portal-hyprland-1:1.3.1-4.fc39.aarch64    8/20 
+  Installing       : tomlplusplus-3.4.0-1.fc39.aarch64                     9/20 
+  Installing       : tomlplusplus-3.4.0-1.fc39.aarch64                     9/20 
+  Installing       : ripgrep-14.1.0-2.fc39.aarch64                        10/20 
+  Installing       : ripgrep-14.1.0-2.fc39.aarch64                        10/20 
+  Installing       : brightnessctl-0.5.1-11.fc39.aarch64                  11/20 
+  Installing       : brightnessctl-0.5.1-11.fc39.aarch64                  11/20 
+  Installing       : wofi-1.3-3.fc39.aarch64                              12/20 
+  Installing       : wofi-1.3-3.fc39.aarch64                              12/20 
+  Installing       : python3-netifaces-0.11.0-7.fc39.aarch64              13/20 
+  Installing       : python3-netifaces-0.11.0-7.fc39.aarch64              13/20 
+  Installing       : pulseaudio-utils-16.1-5.fc39.aarch64                 14/20 
+  Installing       : pulseaudio-utils-16.1-5.fc39.aarch64                 14/20 
+  Installing       : nwg-panel-0.9.25-1.fc39.noarch                       15/20 
+  Installing       : nwg-panel-0.9.25-1.fc39.noarch                       15/20 
+  Running scriptlet: nwg-panel-0.9.25-1.fc39.noarch                       15/20 
+  Running scriptlet: nwg-panel-0.9.25-1.fc39.noarch                       15/20 
+  Installing       : libliftoff-0.4.1-1.fc39.aarch64                      16/20 
+  Installing       : libliftoff-0.4.1-1.fc39.aarch64                      16/20 
+  Installing       : libdisplay-info-0.1.1-2.fc39.aarch64                 17/20 
+  Installing       : libdisplay-info-0.1.1-2.fc39.aarch64                 17/20 
+  Installing       : kitty-terminfo-0.33.1-1.fc39.noarch                  18/20 
+  Installing       : kitty-terminfo-0.33.1-1.fc39.noarch                  18/20 
+  Installing       : kitty-0.33.1-1.fc39.aarch64                          19/20 
+  Installing       : kitty-0.33.1-1.fc39.aarch64                          19/20 
+  Installing       : hyprland-0.37.1-1.fc39.aarch64                       20/20 
+  Installing       : hyprland-0.37.1-1.fc39.aarch64                       20/20 
+  Running scriptlet: hyprland-0.37.1-1.fc39.aarch64                       20/20 
+  Running scriptlet: hyprland-0.37.1-1.fc39.aarch64                       20/20 
+  Verifying        : hyprcursor-0.1.5-1.fc39.aarch64                       1/20 
+  Verifying        : hyprland-0.37.1-1.fc39.aarch64                        2/20 
+  Verifying        : hyprlang-0.5.0-1.fc39.aarch64                         3/20 
+  Verifying        : hyprpicker-0.2.0-2.fc39.aarch64                       4/20 
+  Verifying        : kitty-0.33.1-1.fc39.aarch64                           5/20 
+  Verifying        : kitty-kitten-0.33.1-1.fc39.aarch64                    6/20 
+  Verifying        : kitty-shell-integration-0.33.1-1.fc39.noarch          7/20 
+  Verifying        : hyprcursor-0.1.5-1.fc39.aarch64                       1/20 
+  Verifying        : kitty-terminfo-0.33.1-1.fc39.noarch                   8/20 
+  Verifying        : hyprland-0.37.1-1.fc39.aarch64                        2/20 
+  Verifying        : hyprlang-0.5.0-1.fc39.aarch64                         3/20 
+  Verifying        : hyprpicker-0.2.0-2.fc39.aarch64                       4/20 
+  Verifying        : kitty-0.33.1-1.fc39.aarch64                           5/20 
+  Verifying        : kitty-kitten-0.33.1-1.fc39.aarch64                    6/20 
+  Verifying        : kitty-shell-integration-0.33.1-1.fc39.noarch          7/20 
+  Verifying        : kitty-terminfo-0.33.1-1.fc39.noarch                   8/20 
+  Verifying        : xdg-desktop-portal-hyprland-1:1.3.1-4.fc39.aarch64    9/20 
+  Verifying        : xdg-desktop-portal-hyprland-1:1.3.1-4.fc39.aarch64    9/20 
+  Verifying        : libdisplay-info-0.1.1-2.fc39.aarch64                 10/20 
+  Verifying        : libdisplay-info-0.1.1-2.fc39.aarch64                 10/20 
+  Verifying        : libliftoff-0.4.1-1.fc39.aarch64                      11/20 
+  Verifying        : libliftoff-0.4.1-1.fc39.aarch64                      11/20 
+  Verifying        : pulseaudio-utils-16.1-5.fc39.aarch64                 12/20 
+  Verifying        : pulseaudio-utils-16.1-5.fc39.aarch64                 12/20 
+  Verifying        : python3-netifaces-0.11.0-7.fc39.aarch64              13/20 
+  Verifying        : python3-netifaces-0.11.0-7.fc39.aarch64              13/20 
+  Verifying        : wofi-1.3-3.fc39.aarch64                              14/20 
+  Verifying        : wofi-1.3-3.fc39.aarch64                              14/20 
+  Verifying        : brightnessctl-0.5.1-11.fc39.aarch64                  15/20 
+  Verifying        : brightnessctl-0.5.1-11.fc39.aarch64                  15/20 
+  Verifying        : nwg-panel-0.9.25-1.fc39.noarch                       16/20 
+  Verifying        : nwg-panel-0.9.25-1.fc39.noarch                       16/20 
+  Verifying        : ripgrep-14.1.0-2.fc39.aarch64                        17/20 
+  Verifying        : ripgrep-14.1.0-2.fc39.aarch64                        17/20 
+  Verifying        : tomlplusplus-3.4.0-1.fc39.aarch64                    18/20 
+  Verifying        : tomlplusplus-3.4.0-1.fc39.aarch64                    18/20 
+  Verifying        : wl-clipboard-2.2.1-1.fc39.aarch64                    19/20 
+  Verifying        : wl-clipboard-2.2.1-1.fc39.aarch64                    19/20 
+  Verifying        : wlr-randr-0.4.1-1.fc39.aarch64                       20/20 
+  Verifying        : wlr-randr-0.4.1-1.fc39.aarch64                       20/20 
+
+Installed:
+  brightnessctl-0.5.1-11.fc39.aarch64                                           
+  hyprcursor-0.1.5-1.fc39.aarch64                                               
+  hyprland-0.37.1-1.fc39.aarch64                                                
+  hyprlang-0.5.0-1.fc39.aarch64                                                 
+  hyprpicker-0.2.0-2.fc39.aarch64                                               
+  kitty-0.33.1-1.fc39.aarch64                                                   
+  kitty-kitten-0.33.1-1.fc39.aarch64                                            
+  kitty-shell-integration-0.33.1-1.fc39.noarch                                  
+  kitty-terminfo-0.33.1-1.fc39.noarch                                           
+  libdisplay-info-0.1.1-2.fc39.aarch64                                          
+  libliftoff-0.4.1-1.fc39.aarch64                                               
+  nwg-panel-0.9.25-1.fc39.noarch                                                
+  pulseaudio-utils-16.1-5.fc39.aarch64                                          
+  python3-netifaces-0.11.0-7.fc39.aarch64                                       
+  ripgrep-14.1.0-2.fc39.aarch64                                                 
+  tomlplusplus-3.4.0-1.fc39.aarch64                                             
+  wl-clipboard-2.2.1-1.fc39.aarch64                                             
+  wlr-randr-0.4.1-1.fc39.aarch64                                                
+  wofi-1.3-3.fc39.aarch64                                                       
+  xdg-desktop-portal-hyprland-1:1.3.1-4.fc39.aarch64                            
+
+Complete!
+ 
+
+Installed:
+  brightnessctl-0.5.1-11.fc39.aarch64                                           
+  hyprcursor-0.1.5-1.fc39.aarch64                                               
+  hyprland-0.37.1-1.fc39.aarch64                                                
+  hyprlang-0.5.0-1.fc39.aarch64                                                 
+  hyprpicker-0.2.0-2.fc39.aarch64                                               
+  kitty-0.33.1-1.fc39.aarch64                                                   
+  kitty-kitten-0.33.1-1.fc39.aarch64                                            
+  kitty-shell-integration-0.33.1-1.fc39.noarch                                  
+  kitty-terminfo-0.33.1-1.fc39.noarch                                           
+  libdisplay-info-0.1.1-2.fc39.aarch64                                          
+  libliftoff-0.4.1-1.fc39.aarch64                                               
+  nwg-panel-0.9.25-1.fc39.noarch                                                
+  pulseaudio-utils-16.1-5.fc39.aarch64                                          
+  python3-netifaces-0.11.0-7.fc39.aarch64                                       
+  ripgrep-14.1.0-2.fc39.aarch64                                                 
+  tomlplusplus-3.4.0-1.fc39.aarch64                                             
+  wl-clipboard-2.2.1-1.fc39.aarch64                                             
+  wlr-randr-0.4.1-1.fc39.aarch64                                                
+  wofi-1.3-3.fc39.aarch64                                                       
+  xdg-desktop-portal-hyprland-1:1.3.1-4.fc39.aarch64                            
+
+Complete!
+[1A[K hyprland was installed.
+ Installing hyprlock ...
+Last metadata expiration check: 0:00:21 ago on Mon 25 Mar 2024 12:19:19 GMT.
+Last metadata expiration check: 0:00:21 ago on Mon 25 Mar 2024 12:19:19 GMT.
+allow_vendor_change is disabled. This option is currently not supported for downgrade and distro-sync commands
+allow_vendor_change is disabled. This option is currently not supported for downgrade and distro-sync commands
+Dependencies resolved.
+Dependencies resolved.
+==========================================================================================
+ Package    Arch     Version      Repository                                          Size
+==========================================================================================
+Installing:
+ hyprlock   aarch64  0.2.0-1.fc39 copr:copr.fedorainfracloud.org:solopasha:hyprland  149 k
+
+Transaction Summary
+==========================================================================================
+Install  1 Package
+
+==========================================================================================
+ Package    Arch     Version      Repository                                          Size
+==========================================================================================
+Installing:
+ hyprlock   aarch64  0.2.0-1.fc39 copr:copr.fedorainfracloud.org:solopasha:hyprland  149 k
+
+Transaction Summary
+==========================================================================================
+Install  1 Package
+
+Total download size: 149 k
+Installed size: 462 k
+Total download size: 149 k
+Installed size: 462 k
+Downloading Packages:
+Downloading Packages:
+hyprlock-0.2.0-1.fc39.aarch64.rpm               189 kB/s | 149 kB     00:00    
+hyprlock-0.2.0-1.fc39.aarch64.rpm               189 kB/s | 149 kB     00:00    
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Total                                           188 kB/s | 149 kB     00:00     
+Total                                           188 kB/s | 149 kB     00:00     
+Running transaction check
+Running transaction check
+Transaction check succeeded.
+Transaction check succeeded.
+Running transaction test
+Running transaction test
+Transaction test succeeded.
+Transaction test succeeded.
+Running transaction
+Running transaction
+  Preparing        :                                                        1/1  Preparing        :                                                        1/1 
+  Installing       : hyprlock-0.2.0-1.fc39.aarch64                          1/1 
+  Installing       : hyprlock-0.2.0-1.fc39.aarch64                          1/1 
+  Running scriptlet: hyprlock-0.2.0-1.fc39.aarch64                          1/1 
+  Running scriptlet: hyprlock-0.2.0-1.fc39.aarch64                          1/1 
+  Verifying        : hyprlock-0.2.0-1.fc39.aarch64                          1/1 
+  Verifying        : hyprlock-0.2.0-1.fc39.aarch64                          1/1 
+
+Installed:
+  hyprlock-0.2.0-1.fc39.aarch64                                                 
+
+Complete!
+ 
+
+Installed:
+  hyprlock-0.2.0-1.fc39.aarch64                                                 
+
+Complete!
+[1A[K hyprlock was installed.
+ Installing hypridle ...
+Last metadata expiration check: 0:00:24 ago on Mon 25 Mar 2024 12:19:19 GMT.
+Last metadata expiration check: 0:00:24 ago on Mon 25 Mar 2024 12:19:19 GMT.
+allow_vendor_change is disabled. This option is currently not supported for downgrade and distro-sync commands
+allow_vendor_change is disabled. This option is currently not supported for downgrade and distro-sync commands
+Dependencies resolved.
+Dependencies resolved.
+==========================================================================================
+ Package    Arch     Version      Repository                                          Size
+==========================================================================================
+Installing:
+ hypridle   aarch64  0.1.1-2.fc39 copr:copr.fedorainfracloud.org:solopasha:hyprland  115 k
+
+Transaction Summary
+==========================================================================================
+Install  1 Package
+
+==========================================================================================
+ Package    Arch     Version      Repository                                          Size
+==========================================================================================
+Installing:
+ hypridle   aarch64  0.1.1-2.fc39 copr:copr.fedorainfracloud.org:solopasha:hyprland  115 k
+
+Transaction Summary
+==========================================================================================
+Install  1 Package
+
+Total download size: 115 k
+Total download size: 115 k
+Installed size: 334 k
+Installed size: 334 k
+Downloading Packages:
+Downloading Packages:
+hypridle-0.1.1-2.fc39.aarch64.rpm               196 kB/s | 115 kB     00:00    
+hypridle-0.1.1-2.fc39.aarch64.rpm               196 kB/s | 115 kB     00:00    
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Total                                           195 kB/s | 115 kB     00:00     
+Total                                           195 kB/s | 115 kB     00:00     
+Running transaction check
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Transaction test succeeded.
+Running transaction
+Running transaction
+  Preparing        :                                                        1/1  Preparing        :                                                        1/1 
+  Installing       : hypridle-0.1.1-2.fc39.aarch64                          1/1 
+  Installing       : hypridle-0.1.1-2.fc39.aarch64                          1/1 
+  Running scriptlet: hypridle-0.1.1-2.fc39.aarch64                          1/1 
+  Running scriptlet: hypridle-0.1.1-2.fc39.aarch64                          1/1 
+  Verifying        : hypridle-0.1.1-2.fc39.aarch64                          1/1 
+  Verifying        : hypridle-0.1.1-2.fc39.aarch64                          1/1 
+
+Installed:
+  hypridle-0.1.1-2.fc39.aarch64                                                 
+
+Complete!
+ 
+
+Installed:
+  hypridle-0.1.1-2.fc39.aarch64                                                 
+
+Complete!
+[1A[K hypridle was installed.
+ Installing stow ...
+Last metadata expiration check: 0:00:27 ago on Mon 25 Mar 2024 12:19:19 GMT.
+Last metadata expiration check: 0:00:27 ago on Mon 25 Mar 2024 12:19:19 GMT.
+allow_vendor_change is disabled. This option is currently not supported for downgrade and distro-sync commands
+allow_vendor_change is disabled. This option is currently not supported for downgrade and distro-sync commands
+Dependencies resolved.
+Dependencies resolved.
+================================================================================
+ Package               Architecture  Version               Repository      Size
+================================================================================
+Installing:
+ stow                  noarch        2.3.1-11.fc39         fedora         110 k
+Installing dependencies:
+ perl-File-Find        noarch        1.43-502.fc39         updates         25 k
+
+Transaction Summary
+================================================================================
+Install  2 Packages
+
+================================================================================
+ Package               Architecture  Version               Repository      Size
+================================================================================
+Installing:
+ stow                  noarch        2.3.1-11.fc39         fedora         110 k
+Installing dependencies:
+ perl-File-Find        noarch        1.43-502.fc39         updates         25 k
+
+Transaction Summary
+================================================================================
+Install  2 Packages
+
+Total download size: 135 k
+Total download size: 135 k
+Installed size: 349 k
+Installed size: 349 k
+Downloading Packages:
+Downloading Packages:
+(1/2): stow-2.3.1-11.fc39.noarch.rpm            296 kB/s | 110 kB     00:00    
+(1/2): stow-2.3.1-11.fc39.noarch.rpm            296 kB/s | 110 kB     00:00    
+(2/2): perl-File-Find-1.43-502.fc39.noarch.rpm   68 kB/s |  25 kB     00:00    
+(2/2): perl-File-Find-1.43-502.fc39.noarch.rpm   68 kB/s |  25 kB     00:00    
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Total                                            80 kB/s | 135 kB     00:01     
+Total                                            80 kB/s | 135 kB     00:01     
+Running transaction check
+Running transaction check
+Transaction check succeeded.
+Transaction check succeeded.
+Running transaction test
+Running transaction test
+Transaction test succeeded.
+Transaction test succeeded.
+Running transaction
+Running transaction
+  Preparing        :                                                        1/1  Preparing        :                                                        1/1 
+  Installing       : perl-File-Find-1.43-502.fc39.noarch                    1/2 
+  Installing       : perl-File-Find-1.43-502.fc39.noarch                    1/2 
+  Installing       : stow-2.3.1-11.fc39.noarch                              2/2 
+  Installing       : stow-2.3.1-11.fc39.noarch                              2/2 
+  Running scriptlet: stow-2.3.1-11.fc39.noarch                              2/2 
+  Running scriptlet: stow-2.3.1-11.fc39.noarch                              2/2 
+  Verifying        : stow-2.3.1-11.fc39.noarch                              1/2 
+  Verifying        : perl-File-Find-1.43-502.fc39.noarch                    2/2 
+  Verifying        : stow-2.3.1-11.fc39.noarch                              1/2 
+  Verifying        : perl-File-Find-1.43-502.fc39.noarch                    2/2 
+
+Installed:
+  perl-File-Find-1.43-502.fc39.noarch         stow-2.3.1-11.fc39.noarch        
+
+Complete!
+ 
+
+Installed:
+  perl-File-Find-1.43-502.fc39.noarch         stow-2.3.1-11.fc39.noarch        
+
+Complete!
+[1A[K stow was installed.
+ Installing default-fonts ...
+Last metadata expiration check: 0:00:30 ago on Mon 25 Mar 2024 12:19:19 GMT.
+Last metadata expiration check: 0:00:30 ago on Mon 25 Mar 2024 12:19:19 GMT.
+allow_vendor_change is disabled. This option is currently not supported for downgrade and distro-sync commands
+allow_vendor_change is disabled. This option is currently not supported for downgrade and distro-sync commands
+Dependencies resolved.
+Dependencies resolved.
+================================================================================
+ Package                    Architecture  Version           Repository     Size
+================================================================================
+Installing:
+ default-fonts              noarch        4.0-9.fc39        fedora         11 k
+Installing dependencies:
+ default-fonts-cjk          noarch        4.0-9.fc39        fedora         11 k
+ default-fonts-core         noarch        4.0-9.fc39        fedora         11 k
+ default-fonts-other        noarch        4.0-9.fc39        fedora         11 k
+
+Transaction Summary
+================================================================================
+Install  4 Packages
+
+================================================================================
+ Package                    Architecture  Version           Repository     Size
+================================================================================
+Installing:
+ default-fonts              noarch        4.0-9.fc39        fedora         11 k
+Installing dependencies:
+ default-fonts-cjk          noarch        4.0-9.fc39        fedora         11 k
+ default-fonts-core         noarch        4.0-9.fc39        fedora         11 k
+ default-fonts-other        noarch        4.0-9.fc39        fedora         11 k
+
+Transaction Summary
+================================================================================
+Install  4 Packages
+
+Total download size: 45 k
+Total download size: 45 k
+Installed size: 1.5 k
+Installed size: 1.5 k
+Downloading Packages:
+Downloading Packages:
+(1/4): default-fonts-4.0-9.fc39.noarch.rpm       49 kB/s |  11 kB     00:00    
+(1/4): default-fonts-4.0-9.fc39.noarch.rpm       49 kB/s |  11 kB     00:00    
+(2/4): default-fonts-cjk-4.0-9.fc39.noarch.rpm   43 kB/s |  11 kB     00:00    
+(2/4): default-fonts-cjk-4.0-9.fc39.noarch.rpm   43 kB/s |  11 kB     00:00    
+(3/4): default-fonts-other-4.0-9.fc39.noarch.rp 297 kB/s |  11 kB     00:00    
+(3/4): default-fonts-other-4.0-9.fc39.noarch.rp 297 kB/s |  11 kB     00:00    
+(4/4): default-fonts-core-4.0-9.fc39.noarch.rpm  41 kB/s |  11 kB     00:00    
+(4/4): default-fonts-core-4.0-9.fc39.noarch.rpm  41 kB/s |  11 kB     00:00    
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Total                                            56 kB/s |  45 kB     00:00     
+Total                                            56 kB/s |  45 kB     00:00     
+Running transaction check
+Running transaction check
+Transaction check succeeded.
+Transaction check succeeded.
+Running transaction test
+Running transaction test
+Transaction test succeeded.
+Transaction test succeeded.
+Running transaction
+Running transaction
+  Preparing        :                                                        1/1  Preparing        :                                                        1/1 
+  Installing       : default-fonts-other-4.0-9.fc39.noarch                  1/4 
+  Installing       : default-fonts-other-4.0-9.fc39.noarch                  1/4 
+  Installing       : default-fonts-core-4.0-9.fc39.noarch                   2/4 
+  Installing       : default-fonts-core-4.0-9.fc39.noarch                   2/4 
+  Installing       : default-fonts-cjk-4.0-9.fc39.noarch                    3/4 
+  Installing       : default-fonts-cjk-4.0-9.fc39.noarch                    3/4 
+  Installing       : default-fonts-4.0-9.fc39.noarch                        4/4 
+  Installing       : default-fonts-4.0-9.fc39.noarch                        4/4 
+  Verifying        : default-fonts-4.0-9.fc39.noarch                        1/4 
+  Verifying        : default-fonts-cjk-4.0-9.fc39.noarch                    2/4 
+  Verifying        : default-fonts-4.0-9.fc39.noarch                        1/4 
+  Verifying        : default-fonts-cjk-4.0-9.fc39.noarch                    2/4 
+  Verifying        : default-fonts-core-4.0-9.fc39.noarch                   3/4 
+  Verifying        : default-fonts-core-4.0-9.fc39.noarch                   3/4 
+  Verifying        : default-fonts-other-4.0-9.fc39.noarch                  4/4 
+  Verifying        : default-fonts-other-4.0-9.fc39.noarch                  4/4 
+
+Installed:
+  default-fonts-4.0-9.fc39.noarch        default-fonts-cjk-4.0-9.fc39.noarch    
+  default-fonts-core-4.0-9.fc39.noarch   default-fonts-other-4.0-9.fc39.noarch  
+
+Complete!
+ 
+
+Installed:
+  default-fonts-4.0-9.fc39.noarch        default-fonts-cjk-4.0-9.fc39.noarch    
+  default-fonts-core-4.0-9.fc39.noarch   default-fonts-other-4.0-9.fc39.noarch  
+
+Complete!
+[1A[K default-fonts was installed.
+ ImageMagick is already installed. Skipping...
+ Installing python3-pip ...
+Last metadata expiration check: 0:00:33 ago on Mon 25 Mar 2024 12:19:19 GMT.
+Last metadata expiration check: 0:00:33 ago on Mon 25 Mar 2024 12:19:19 GMT.
+allow_vendor_change is disabled. This option is currently not supported for downgrade and distro-sync commands
+allow_vendor_change is disabled. This option is currently not supported for downgrade and distro-sync commands
+Dependencies resolved.
+Dependencies resolved.
+================================================================================
+ Package             Architecture   Version                Repository      Size
+================================================================================
+Installing:
+ python3-pip         noarch         23.2.1-1.fc39          fedora         3.1 M
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+================================================================================
+ Package             Architecture   Version                Repository      Size
+================================================================================
+Installing:
+ python3-pip         noarch         23.2.1-1.fc39          fedora         3.1 M
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 3.1 M
+Total download size: 3.1 M
+Installed size: 14 M
+Installed size: 14 M
+Downloading Packages:
+Downloading Packages:
+python3-pip-23.2.1-1.fc39.noarch.rpm            896 kB/s | 3.1 MB     00:03    
+python3-pip-23.2.1-1.fc39.noarch.rpm            896 kB/s | 3.1 MB     00:03    
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Total                                           752 kB/s | 3.1 MB     00:04     
+Total                                           752 kB/s | 3.1 MB     00:04     
+Running transaction check
+Running transaction check
+Transaction check succeeded.
+Transaction check succeeded.
+Running transaction test
+Running transaction test
+Transaction test succeeded.
+Transaction test succeeded.
+Running transaction
+Running transaction
+  Preparing        :                                                        1/1  Preparing        :                                                        1/1 
+  Installing       : python3-pip-23.2.1-1.fc39.noarch                       1/1 
+  Installing       : python3-pip-23.2.1-1.fc39.noarch                       1/1 
+  Running scriptlet: python3-pip-23.2.1-1.fc39.noarch                       1/1 
+  Running scriptlet: python3-pip-23.2.1-1.fc39.noarch                       1/1 
+  Verifying        : python3-pip-23.2.1-1.fc39.noarch                       1/1 
+  Verifying        : python3-pip-23.2.1-1.fc39.noarch                       1/1 
+
+Installed:
+  python3-pip-23.2.1-1.fc39.noarch                                              
+
+Complete!
+ 
+
+Installed:
+  python3-pip-23.2.1-1.fc39.noarch                                              
+
+Complete!
+[1A[K python3-pip was installed.
+ Installing wlogout ...
+Last metadata expiration check: 0:00:39 ago on Mon 25 Mar 2024 12:19:19 GMT.
+Last metadata expiration check: 0:00:39 ago on Mon 25 Mar 2024 12:19:19 GMT.
+allow_vendor_change is disabled. This option is currently not supported for downgrade and distro-sync commands
+allow_vendor_change is disabled. This option is currently not supported for downgrade and distro-sync commands
+Dependencies resolved.
+Dependencies resolved.
+================================================================================
+ Package          Architecture     Version               Repository        Size
+================================================================================
+Installing:
+ wlogout          aarch64          1.2.1-1.fc39          updates          107 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+================================================================================
+ Package          Architecture     Version               Repository        Size
+================================================================================
+Installing:
+ wlogout          aarch64          1.2.1-1.fc39          updates          107 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 107 k
+Total download size: 107 k
+Installed size: 295 k
+Installed size: 295 k
+Downloading Packages:
+Downloading Packages:
+wlogout-1.2.1-1.fc39.aarch64.rpm                348 kB/s | 107 kB     00:00    
+wlogout-1.2.1-1.fc39.aarch64.rpm                348 kB/s | 107 kB     00:00    
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Total                                           141 kB/s | 107 kB     00:00     
+Total                                           141 kB/s | 107 kB     00:00     
+Running transaction check
+Running transaction check
+Transaction check succeeded.
+Transaction check succeeded.
+Running transaction test
+Running transaction test
+Transaction test succeeded.
+Transaction test succeeded.
+Running transaction
+Running transaction
+  Preparing        :                                                        1/1  Preparing        :                                                        1/1 
+  Installing       : wlogout-1.2.1-1.fc39.aarch64                           1/1 
+  Installing       : wlogout-1.2.1-1.fc39.aarch64                           1/1 
+  Running scriptlet: wlogout-1.2.1-1.fc39.aarch64                           1/1 
+  Running scriptlet: wlogout-1.2.1-1.fc39.aarch64                           1/1 
+  Verifying        : wlogout-1.2.1-1.fc39.aarch64                           1/1 
+  Verifying        : wlogout-1.2.1-1.fc39.aarch64                           1/1 
+
+Installed:
+  wlogout-1.2.1-1.fc39.aarch64                                                  
+
+Complete!
+ 
+
+Installed:
+  wlogout-1.2.1-1.fc39.aarch64                                                  
+
+Complete!
+[1A[K wlogout was installed.
+ Installing codium ...
+Last metadata expiration check: 0:00:42 ago on Mon 25 Mar 2024 12:19:19 GMT.
+Last metadata expiration check: 0:00:42 ago on Mon 25 Mar 2024 12:19:19 GMT.
+allow_vendor_change is disabled. This option is currently not supported for downgrade and distro-sync commands
+allow_vendor_change is disabled. This option is currently not supported for downgrade and distro-sync commands
+No match for argument: codium
+No match for argument: codium
+Error: Unable to find a match: codium
+Error: Unable to find a match: codium
+[1A[K codium failed to install :( , please check the install.log. You may need to install manually! Sorry I have tried :(
+ Installing gtk-murrine-engine ...
+Last metadata expiration check: 0:00:44 ago on Mon 25 Mar 2024 12:19:19 GMT.
+Last metadata expiration check: 0:00:44 ago on Mon 25 Mar 2024 12:19:19 GMT.
+allow_vendor_change is disabled. This option is currently not supported for downgrade and distro-sync commands
+allow_vendor_change is disabled. This option is currently not supported for downgrade and distro-sync commands
+Dependencies resolved.
+Dependencies resolved.
+================================================================================
+ Package                  Architecture  Version              Repository    Size
+================================================================================
+Installing:
+ gtk-murrine-engine       aarch64       0.98.2-27.fc39       fedora       128 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+================================================================================
+ Package                  Architecture  Version              Repository    Size
+================================================================================
+Installing:
+ gtk-murrine-engine       aarch64       0.98.2-27.fc39       fedora       128 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 128 k
+Total download size: 128 k
+Installed size: 525 k
+Installed size: 525 k
+Downloading Packages:
+Downloading Packages:
+gtk-murrine-engine-0.98.2-27.fc39.aarch64.rpm   373 kB/s | 128 kB     00:00    
+gtk-murrine-engine-0.98.2-27.fc39.aarch64.rpm   373 kB/s | 128 kB     00:00    
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Total                                           147 kB/s | 128 kB     00:00     
+Total                                           147 kB/s | 128 kB     00:00     
+Running transaction check
+Running transaction check
+Transaction check succeeded.
+Transaction check succeeded.
+Running transaction test
+Running transaction test
+Transaction test succeeded.
+Transaction test succeeded.
+Running transaction
+Running transaction
+  Preparing        :                                                        1/1  Preparing        :                                                        1/1 
+  Installing       : gtk-murrine-engine-0.98.2-27.fc39.aarch64              1/1 
+  Installing       : gtk-murrine-engine-0.98.2-27.fc39.aarch64              1/1 
+  Running scriptlet: gtk-murrine-engine-0.98.2-27.fc39.aarch64              1/1 
+  Running scriptlet: gtk-murrine-engine-0.98.2-27.fc39.aarch64              1/1 
+  Verifying        : gtk-murrine-engine-0.98.2-27.fc39.aarch64              1/1 
+  Verifying        : gtk-murrine-engine-0.98.2-27.fc39.aarch64              1/1 
+
+Installed:
+  gtk-murrine-engine-0.98.2-27.fc39.aarch64                                     
+
+Complete!
+ 
+
+Installed:
+  gtk-murrine-engine-0.98.2-27.fc39.aarch64                                     
+
+Complete!
+[1A[K gtk-murrine-engine was installed.
+ pipewire-alsa is already installed. Skipping...
+ Installing fontawesome-fonts ...
+Last metadata expiration check: 0:00:47 ago on Mon 25 Mar 2024 12:19:19 GMT.
+Last metadata expiration check: 0:00:47 ago on Mon 25 Mar 2024 12:19:19 GMT.
+allow_vendor_change is disabled. This option is currently not supported for downgrade and distro-sync commands
+allow_vendor_change is disabled. This option is currently not supported for downgrade and distro-sync commands
+Dependencies resolved.
+Dependencies resolved.
+================================================================================
+ Package                  Architecture Version               Repository    Size
+================================================================================
+Installing:
+ fontawesome4-fonts       noarch       1:4.7.0-19.fc39       fedora       204 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+================================================================================
+ Package                  Architecture Version               Repository    Size
+================================================================================
+Installing:
+ fontawesome4-fonts       noarch       1:4.7.0-19.fc39       fedora       204 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 204 k
+Total download size: 204 k
+Installed size: 297 k
+Installed size: 297 k
+Downloading Packages:
+Downloading Packages:
+fontawesome4-fonts-4.7.0-19.fc39.noarch.rpm     473 kB/s | 204 kB     00:00    
+fontawesome4-fonts-4.7.0-19.fc39.noarch.rpm     473 kB/s | 204 kB     00:00    
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Total                                           231 kB/s | 204 kB     00:00     
+Total                                           231 kB/s | 204 kB     00:00     
+Running transaction check
+Running transaction check
+Transaction check succeeded.
+Transaction check succeeded.
+Running transaction test
+Running transaction test
+Transaction test succeeded.
+Transaction test succeeded.
+Running transaction
+Running transaction
+  Preparing        :                                                        1/1  Preparing        :                                                        1/1 
+  Installing       : fontawesome4-fonts-1:4.7.0-19.fc39.noarch              1/1 
+  Installing       : fontawesome4-fonts-1:4.7.0-19.fc39.noarch              1/1 
+  Running scriptlet: fontawesome4-fonts-1:4.7.0-19.fc39.noarch              1/1 
+  Running scriptlet: fontawesome4-fonts-1:4.7.0-19.fc39.noarch              1/1 
+  Verifying        : fontawesome4-fonts-1:4.7.0-19.fc39.noarch              1/1 
+  Verifying        : fontawesome4-fonts-1:4.7.0-19.fc39.noarch              1/1 
+
+Installed:
+  fontawesome4-fonts-1:4.7.0-19.fc39.noarch                                     
+
+Complete!
+ 
+
+Installed:
+  fontawesome4-fonts-1:4.7.0-19.fc39.noarch                                     
+
+Complete!
+[1A[K fontawesome-fonts failed to install :( , please check the install.log. You may need to install manually! Sorry I have tried :(
+ Installing htop ...
+Last metadata expiration check: 0:00:49 ago on Mon 25 Mar 2024 12:19:19 GMT.
+Last metadata expiration check: 0:00:49 ago on Mon 25 Mar 2024 12:19:19 GMT.
+allow_vendor_change is disabled. This option is currently not supported for downgrade and distro-sync commands
+allow_vendor_change is disabled. This option is currently not supported for downgrade and distro-sync commands
+Dependencies resolved.
+Dependencies resolved.
+================================================================================
+ Package            Architecture    Version               Repository       Size
+================================================================================
+Installing:
+ htop               aarch64         3.3.0-1.fc39          updates         199 k
+Installing dependencies:
+ hwloc-libs         aarch64         2.10.0-1.fc39         updates         2.1 M
+
+Transaction Summary
+================================================================================
+Install  2 Packages
+
+================================================================================
+ Package            Architecture    Version               Repository       Size
+================================================================================
+Installing:
+ htop               aarch64         3.3.0-1.fc39          updates         199 k
+Installing dependencies:
+ hwloc-libs         aarch64         2.10.0-1.fc39         updates         2.1 M
+
+Transaction Summary
+================================================================================
+Install  2 Packages
+
+Total download size: 2.3 M
+Total download size: 2.3 M
+Installed size: 3.5 M
+Installed size: 3.5 M
+Downloading Packages:
+Downloading Packages:
+(1/2): htop-3.3.0-1.fc39.aarch64.rpm            584 kB/s | 199 kB     00:00    
+(1/2): htop-3.3.0-1.fc39.aarch64.rpm            584 kB/s | 199 kB     00:00    
+(2/2): hwloc-libs-2.10.0-1.fc39.aarch64.rpm     2.0 MB/s | 2.1 MB     00:01    
+(2/2): hwloc-libs-2.10.0-1.fc39.aarch64.rpm     2.0 MB/s | 2.1 MB     00:01    
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Total                                           1.5 MB/s | 2.3 MB     00:01     
+Total                                           1.5 MB/s | 2.3 MB     00:01     
+Running transaction check
+Running transaction check
+Transaction check succeeded.
+Transaction check succeeded.
+Running transaction test
+Running transaction test
+Transaction test succeeded.
+Transaction test succeeded.
+Running transaction
+Running transaction
+  Preparing        :                                                        1/1  Preparing        :                                                        1/1 
+  Installing       : hwloc-libs-2.10.0-1.fc39.aarch64                       1/2 
+  Installing       : hwloc-libs-2.10.0-1.fc39.aarch64                       1/2 
+  Installing       : htop-3.3.0-1.fc39.aarch64                              2/2 
+  Installing       : htop-3.3.0-1.fc39.aarch64                              2/2 
+  Running scriptlet: htop-3.3.0-1.fc39.aarch64                              2/2 
+  Running scriptlet: htop-3.3.0-1.fc39.aarch64                              2/2 
+  Verifying        : htop-3.3.0-1.fc39.aarch64                              1/2 
+  Verifying        : hwloc-libs-2.10.0-1.fc39.aarch64                       2/2 
+  Verifying        : htop-3.3.0-1.fc39.aarch64                              1/2 
+  Verifying        : hwloc-libs-2.10.0-1.fc39.aarch64                       2/2 
+
+Installed:
+  htop-3.3.0-1.fc39.aarch64           hwloc-libs-2.10.0-1.fc39.aarch64          
+
+Complete!
+ 
+
+Installed:
+  htop-3.3.0-1.fc39.aarch64           hwloc-libs-2.10.0-1.fc39.aarch64          
+
+Complete!
+[1A[K htop was installed.
+ Installing xarchiver ...
+Last metadata expiration check: 0:00:53 ago on Mon 25 Mar 2024 12:19:19 GMT.
+Last metadata expiration check: 0:00:53 ago on Mon 25 Mar 2024 12:19:19 GMT.
+allow_vendor_change is disabled. This option is currently not supported for downgrade and distro-sync commands
+allow_vendor_change is disabled. This option is currently not supported for downgrade and distro-sync commands
+Dependencies resolved.
+Dependencies resolved.
+================================================================================
+ Package          Architecture   Version                   Repository      Size
+================================================================================
+Installing:
+ xarchiver        aarch64        0.5.4.23-1.fc39           updates        535 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+================================================================================
+ Package          Architecture   Version                   Repository      Size
+================================================================================
+Installing:
+ xarchiver        aarch64        0.5.4.23-1.fc39           updates        535 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 535 k
+Total download size: 535 k
+Installed size: 1.6 M
+Installed size: 1.6 M
+Downloading Packages:
+Downloading Packages:
+xarchiver-0.5.4.23-1.fc39.aarch64.rpm           1.1 MB/s | 535 kB     00:00    
+xarchiver-0.5.4.23-1.fc39.aarch64.rpm           1.1 MB/s | 535 kB     00:00    
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Total                                           556 kB/s | 535 kB     00:00     
+Total                                           556 kB/s | 535 kB     00:00     
+Running transaction check
+Running transaction check
+Transaction check succeeded.
+Transaction check succeeded.
+Running transaction test
+Running transaction test
+Transaction test succeeded.
+Transaction test succeeded.
+Running transaction
+Running transaction
+  Preparing        :                                                        1/1  Preparing        :                                                        1/1 
+  Installing       : xarchiver-0.5.4.23-1.fc39.aarch64                      1/1 
+  Installing       : xarchiver-0.5.4.23-1.fc39.aarch64                      1/1 
+  Running scriptlet: xarchiver-0.5.4.23-1.fc39.aarch64                      1/1 
+  Running scriptlet: xarchiver-0.5.4.23-1.fc39.aarch64                      1/1 
+  Verifying        : xarchiver-0.5.4.23-1.fc39.aarch64                      1/1 
+  Verifying        : xarchiver-0.5.4.23-1.fc39.aarch64                      1/1 
+
+Installed:
+  xarchiver-0.5.4.23-1.fc39.aarch64                                             
+
+Complete!
+ 
+
+Installed:
+  xarchiver-0.5.4.23-1.fc39.aarch64                                             
+
+Complete!
+[1A[K xarchiver was installed.
+ Installing lxpolkit ...
+Last metadata expiration check: 0:00:56 ago on Mon 25 Mar 2024 12:19:19 GMT.
+Last metadata expiration check: 0:00:56 ago on Mon 25 Mar 2024 12:19:19 GMT.
+allow_vendor_change is disabled. This option is currently not supported for downgrade and distro-sync commands
+allow_vendor_change is disabled. This option is currently not supported for downgrade and distro-sync commands
+Dependencies resolved.
+Dependencies resolved.
+================================================================================
+ Package      Arch        Version                              Repository  Size
+================================================================================
+Installing:
+ lxpolkit     aarch64     0.5.5^20230810git27c1eaf6-1.fc39     fedora      19 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+================================================================================
+ Package      Arch        Version                              Repository  Size
+================================================================================
+Installing:
+ lxpolkit     aarch64     0.5.5^20230810git27c1eaf6-1.fc39     fedora      19 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 19 k
+Installed size: 208 k
+Total download size: 19 k
+Installed size: 208 k
+Downloading Packages:
+Downloading Packages:
+lxpolkit-0.5.5^20230810git27c1eaf6-1.fc39.aarch  76 kB/s |  19 kB     00:00    
+lxpolkit-0.5.5^20230810git27c1eaf6-1.fc39.aarch  76 kB/s |  19 kB     00:00    
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Total                                            10 kB/s |  19 kB     00:01     
+Total                                            10 kB/s |  19 kB     00:01     
+Running transaction check
+Running transaction check
+Transaction check succeeded.
+Transaction check succeeded.
+Running transaction test
+Running transaction test
+Transaction test succeeded.
+Transaction test succeeded.
+Running transaction
+Running transaction
+  Preparing        :                                                        1/1  Preparing        :                                                        1/1 
+  Installing       : lxpolkit-0.5.5^20230810git27c1eaf6-1.fc39.aarch64      1/1 
+  Installing       : lxpolkit-0.5.5^20230810git27c1eaf6-1.fc39.aarch64      1/1 
+  Running scriptlet: lxpolkit-0.5.5^20230810git27c1eaf6-1.fc39.aarch64      1/1 
+  Running scriptlet: lxpolkit-0.5.5^20230810git27c1eaf6-1.fc39.aarch64      1/1 
+  Verifying        : lxpolkit-0.5.5^20230810git27c1eaf6-1.fc39.aarch64      1/1 
+  Verifying        : lxpolkit-0.5.5^20230810git27c1eaf6-1.fc39.aarch64      1/1 
+
+Installed:
+  lxpolkit-0.5.5^20230810git27c1eaf6-1.fc39.aarch64                             
+
+Complete!
+ 
+
+Installed:
+  lxpolkit-0.5.5^20230810git27c1eaf6-1.fc39.aarch64                             
+
+Complete!
+[1A[K lxpolkit was installed.

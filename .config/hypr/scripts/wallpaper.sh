@@ -90,13 +90,14 @@ transition_type="wipe"
 # transition_type="outer"
 # transition_type="random"
 
-swww img $wallpaper \
-    --transition-bezier .43,1.19,1,.4 \
-    --transition-fps=60 \
-    --transition-type=$transition_type \
-    --transition-duration=0.7 \
-    --transition-pos "$( hyprctl cursorpos )"
-
+#swww img $wallpaper \
+#    --transition-bezier .43,1.19,1,.4 \
+#    --transition-fps=60 \
+#    --transition-type=$transition_type \
+#    --transition-duration=0.7 \
+#    --transition-pos "$( hyprctl cursorpos )"
+hyprctl hyprpaper preload $wallpaper
+hyprctl hyprpaper wallpaper eDP-1,$wallpaper
 
 # ----------------------------------------------------- 
 # Created blurred wallpaper
@@ -104,6 +105,7 @@ swww img $wallpaper \
 magick $wallpaper -resize 75% $blurred
 echo ":: Resized to 75%"
 if [ ! "$blur" == "0x0" ] ;then
+    echo "Blur wallpaper using magick"
     magick $blurred -blur $blur $blurred
     echo ":: Blurred"
 fi
@@ -116,6 +118,7 @@ fi
 if [ "$1" == "init" ] ;then
     echo ":: Init"
 else
+    echo "Send notification"
     sleep 1
     notify-send "Colors and Wallpaper updated" "with image $newwall"
 fi

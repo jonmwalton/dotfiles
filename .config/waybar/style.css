@@ -34,7 +34,7 @@
 
 
 * {
-    font-family: "Noto Sans", "JetBrains Mono Nerd Font", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-family: "Noto Sans", "JetBrains Mono Nerd Font", "FontAwesome 6", Roboto, Helvetica, Arial, sans-serif;
     font-size: 10px;
     border: none;
     border-radius: 0px;
@@ -227,7 +227,7 @@ window#waybar.empty #window {
 
 #idle_inhibitor {
     /*margin-right: 15px;*/
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     opacity: 0.8;
     color: @iconcolor;
@@ -263,7 +263,7 @@ window#waybar.empty #window {
 #custom-exit {
     margin: 0px 5px 0px 0px;
     padding:0px;
-    font-size:16px;
+    font-size:14px;
     color: @iconcolor;
     opacity: 0.8;
 }
@@ -274,7 +274,7 @@ window#waybar.empty #window {
 
 #custom-updates {
     background-color: @backgroundlight;
-    font-size: 16px;
+    font-size: 14px;
     color: @textcolor2;
     border-radius: 15px;
     padding: 2px 10px 0px 10px;
@@ -317,7 +317,7 @@ window#waybar.empty #window {
 #disk,#memory,#cpu,#language, #temperature {
     margin:0px;
     padding:0px;
-    font-size:16px;
+    font-size:14px;
     color:@iconcolor;
     font-weight: bold;
     opacity: 0.8;
@@ -333,7 +333,7 @@ window#waybar.empty #window {
 
 #clock {
     background-color: transparent;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     color: @textcolor2;
     /*border-radius: 15px;
@@ -350,7 +350,7 @@ window#waybar.empty #window {
 
 #pulseaudio {
     background-color: transparent;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     color: @textcolor2;
     /*border-radius: 15px;
@@ -370,7 +370,7 @@ window#waybar.empty #window {
 
 #network {
     background-color: transparent;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     color: @textcolor2;
     /*border-radius: 15px;
@@ -395,7 +395,7 @@ window#waybar.empty #window {
 
 #bluetooth, #bluetooth.on, #bluetooth.connected {
     background-color: transparent;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     color: @textcolor2;
     /*border-radius: 15px;
@@ -415,18 +415,18 @@ window#waybar.empty #window {
  * ----------------------------------------------------- */
 
 #battery {
-    background-color: @backgroundlight;
-    font-size: 16px;
+    background-color: transparent;
+    font-size: 14px;
     color: @textcolor2;
-    border-radius: 15px;
+   /* border-radius: 15px;
     padding: 2px 15px 0px 10px;
-    margin: 5px 15px 5px 0px;
+    margin: 5px 15px 5px 0px;*/
     opacity:0.8;
 }
 
 #battery.charging, #battery.plugged {
     color: @textcolor2;
-    background-color: @backgroundlight;
+    background-color: transparent;
 }
 
 @keyframes blink {
@@ -464,7 +464,7 @@ window#waybar.empty #window {
 
 #custom-notification {
     font-family: "NotoSansMono Nerd Font";
-    font-size: 16px;
+    font-size: 14px;
   }
 
 
