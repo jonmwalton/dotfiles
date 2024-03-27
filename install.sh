@@ -30,6 +30,7 @@ sudo dnf update -y
 
 packages=(
     swww
+    blueman
     SwayNotificationCenter
     hyprland
     hyprlock
