@@ -25,6 +25,7 @@ LOG="install-$(date +%d-%H%M%S).log"
 
 sudo dnf copr enable -y solopasha/hyprland
 sudo dnf copr enable -y erikreider/SwayNotificationCenter
+sudo dnf copr enable -y tofik/nwg-shell
 sudo dnf update -y
 
 packages=(
@@ -45,6 +46,10 @@ packages=(
     htop
     xarchiver
     lxpolkit
+    pavucontrol
+    network-manager-applet
+    rofi
+    nwg-displays
 )
 
 for PKG1 in "${packages[@]}"; do

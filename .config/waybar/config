@@ -47,9 +47,7 @@
 
     // Modules Right    
     "modules-right": [
-        "cpu",
-        "memory",
-        "temperature",
+        "group/hardware",
         "custom/notification",
         "pulseaudio",
         // START BT TOOGLE
@@ -59,7 +57,7 @@
         // START NETWORK TOOGLE
         //"network",
         // END NETWORK TOOGLE
-        //"group/hardware",
+        
         
         //"custom/cliphist",
         // START IDLE TOOGLE

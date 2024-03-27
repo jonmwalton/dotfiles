@@ -12,9 +12,9 @@
 /* ---- Configuration ---- */
 configuration {
     modi:                       "drun,run";
-    font:                       "Fira Sans Bold 10";
-    show-icons:                 false;
-    icon-theme:                 "kora";
+    font:                       "Noto Sans Bold 10";
+    show-icons:                 true;
+    icon-theme:                 "Tela-dark";
     display-drun:               "APPS";
     display-run:                "RUN";
     display-filebrowser:        "FILES";
@@ -30,7 +30,7 @@ configuration {
 /* ---- Load pywal colors (custom wal template) ---- */
 @import "~/.cache/wal/colors-rofi-dark"
 @import "~/.cache/current_wallpaper.rasi"
-@import "~/dotfiles/.settings/rofi-border.rasi"
+/*@import "~/dotfiles/.settings/rofi-border.rasi"*/
 
 /* ---- Window ---- */
 window {
@@ -41,7 +41,7 @@ window {
     padding:                      0px;
     margin:                       0px; 
     color:                        #FFFFFF;
-    border:                       @border-width;
+    border:                       3px;
     border-color:                 #FFFFFF;
     cursor:                       "default";
     transparency:                 "real";
@@ -60,7 +60,7 @@ mainbox {
     spacing:                      0px;
     margin:                       0px;
     background-color:             @background;
-    background-image:             @current-image;
+    /*background-image:             @current-image;*/
     children:                     ["listbox"];
 }
 
@@ -132,7 +132,7 @@ button {
 }
 
 button selected {
-    background-color:             @color11;
+    /*background-color:             @color11;*/
     text-color:                   @foreground;
 }
 
@@ -163,7 +163,7 @@ element {
     cursor:                       pointer;
     background-color:             @background;
     border-radius:                10px;
-    border:                       @border-width;
+    border:                       3px;
 }
 
 element normal.normal {
@@ -182,7 +182,7 @@ element normal.active {
 }
 
 element selected.normal {
-    background-color:            @color11;
+    /*background-color:            @color11;*/
     text-color:                  @foreground;
 }
 

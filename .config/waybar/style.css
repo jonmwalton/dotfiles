@@ -134,15 +134,15 @@ window#waybar.empty #window {
  * ----------------------------------------------------- */
 
 #taskbar {
-    /*background: @backgroundlight;
-    background: @workspacesbackground1;*/
+    background: @backgroundlight;
+    background: @workspacesbackground1;
     margin: 3px 15px 3px 20px;
     padding-top: 0px;
     border-radius: 15px;
     border: 0px;
-    /*margin: 3px 15px 3px 20px;
+    margin: 3px 15px 3px 20px;
     padding-left:0px;
-    border-radius: 15px;*/
+    border-radius: 15px;
     font-weight: normal;
     font-style: normal;
     opacity:0.8;
@@ -314,14 +314,32 @@ window#waybar.empty #window {
  * Hardware Group
  * ----------------------------------------------------- */
 
-#disk,#memory,#cpu,#language, #temperature {
-    margin:0px;
-    padding:0px;
-    font-size:14px;
+/*#disk,#memory,#cpu,#language, #temperature {*/
+#hardware {
+    
+    font-size:16px;
     color:@iconcolor;
     font-weight: bold;
     opacity: 0.8;
+    padding: 0px 5px 0px 15px;
+    margin: 4px 3px;
+    border-radius: 15px;
+    border: 0px;
+    background-color: @backgroundlight;
 }
+
+#disk,#memory,#cpu,#language, #temperature {
+        margin:0px;
+        padding:5px;
+        font-size:16px;
+        color:@iconcolor;
+        font-weight: bold;
+        opacity: 0.8;
+/*        border-radius: 15px;
+        padding: 1px 10px 0px 10px;
+        margin: 3px 15px 3px 0px;
+        background-color: @backgroundlight;*/
+    }
 
 #language {
     margin-right:10px;
@@ -451,7 +469,11 @@ window#waybar.empty #window {
  * ----------------------------------------------------- */
 
 #tray {
-    padding: 0px 15px 0px 0px;
+    /*padding: 0px 0px 0px 0px;*/
+    border-radius: 15px;
+    padding: 2px 10px 0px 10px;
+    margin: 5px 5px 5px 0px;
+    background-color: @backgroundlight;
 }
 
 #tray > .passive {
