@@ -14,7 +14,7 @@ datestr=%d %B, %a
 #screenshots
 
 # Add an image as a background. You need to disable screenshots above
-#image=~/.cache/current_wallpaper
+image=~/.cache/blurred_wallpaper.png
 
 # Effect for background
 # NOTE: if you choose image as wallpaper, you may want to comment (#) these effects 

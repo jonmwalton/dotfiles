@@ -8,7 +8,7 @@ install_package() {
   else
     # Package not installed
     echo -e "${NOTE} Installing $1 ..."
-    sudo dnf install -y "$1" 2>&1 | tee -a "$LOG"
+    sudo dnf install -y --allowerasing "$1" 2>&1 | tee -a "$LOG"
     # Making sure package is installed
     if sudo dnf list installed "$1" &>> /dev/null ; then
       echo -e "\e[1A\e[K${OK} $1 was installed."
@@ -26,10 +26,10 @@ LOG="install-$(date +%d-%H%M%S).log"
 sudo dnf copr enable -y solopasha/hyprland
 sudo dnf copr enable -y erikreider/SwayNotificationCenter
 sudo dnf copr enable -y tofik/nwg-shell
+sudo dnf copr enable eddsalkield/swaylock-effects
 sudo dnf update -y
 
 packages=(
-    swww
     blueman
     SwayNotificationCenter
     hyprland
@@ -51,6 +51,8 @@ packages=(
     network-manager-applet
     rofi-wayland
     nwg-displays
+    swaylock-effects
+    thunar
 )
 
 for PKG1 in "${packages[@]}"; do
