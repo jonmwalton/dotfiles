@@ -35,7 +35,7 @@
         "on-click": "activate",
         "on-click-middle": "close",
         "ignore-list": [
-           "Alacritty"
+           "kitty"
         ],
         "app_ids-mapping": {
             "firefoxdeveloperedition": "firefox-developer-edition"
@@ -91,7 +91,7 @@
         "return-type": "json",       
         "exec": "~/dotfiles/scripts/updates.sh",
         "restart-interval": 60,
-        "on-click": "alacritty --class dotfiles-floating -e ~/dotfiles/scripts/installupdates.sh",
+        "on-click": "kitty --class dotfiles-floating -e ~/dotfiles/scripts/installupdates.sh",
         "on-click-right": "~/dotfiles/.settings/software.sh",
         "tooltip": false
     },
@@ -114,7 +114,7 @@
     // Settings
     "custom/settings": {
         "format": "",
-        "on-click": "alacritty --class dotfiles-floating -e ~/dotfiles/hypr/start-settings.sh",
+        "on-click": "kitty --class dotfiles-floating -e ~/dotfiles/hypr/start-settings.sh",
         "tooltip": false
     },
 
@@ -237,7 +237,7 @@
         "format": "󰻠  {usage}% ",  
     "interval": 1,
     "format-alt-click": "click",
-        "on-click": "alacritty -e htop"
+        "on-click": "kitty -e htop"
     },
 
     // Memory
@@ -264,7 +264,7 @@
         "interval": 30,
         "format": "D {percentage_used}% ",
         "path": "/",
-        "on-click": "alacritty -e htop"
+        "on-click": "kitty -e htop"
     }, 
 
     "hyprland/language": {
