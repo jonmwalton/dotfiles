@@ -33,8 +33,8 @@ packages=(
     blueman
     SwayNotificationCenter
     hyprland
-    hyprlock
-    hypridle
+    #hyprlock
+    #hypridle
     stow
     default-fonts
     ImageMagick
@@ -53,6 +53,7 @@ packages=(
     nwg-displays
     swaylock-effects
     thunar
+    neofetch
 )
 
 for PKG1 in "${packages[@]}"; do
