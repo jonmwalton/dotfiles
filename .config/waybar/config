@@ -61,7 +61,7 @@
         
         //"custom/cliphist",
         // START IDLE TOOGLE
-        "idle_inhibitor",
+        //"idle_inhibitor",
         // END IDLE TOOGLE
         // START TRAY TOOGLE
         "tray",
