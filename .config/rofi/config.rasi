@@ -11,14 +11,16 @@
 
 /* ---- Configuration ---- */
 configuration {
-    modi:                       "drun,run";
-    font:                       "Fira Sans Bold 12";
+    modi:                       "drun,run,filebrowser,window";
+    font:                        "JetBrainsMono Nerd Font 10, Noto Sans 11";
     show-icons:                 true;
-    icon-theme:                 "kora";
-    display-drun:               "APPS";
-    display-run:                "RUN";
-    display-filebrowser:        "FILES";
-    display-window:             "WINDOW";
+    icon-theme:                 "Tela-dark";
+    display-drun:                "";
+    display-run:                 "";
+    display-filebrowser:         "";
+    display-window:              "";
+    /*display-filebrowser:        "FILES";
+    display-window:             "WINDOW";*/
 	drun-display-format:        "{name}";
     hover-select:               true;
     me-select-entry:            "";
@@ -28,7 +30,7 @@ configuration {
 }
 
 /* ---- Load pywal colors (custom wal template) ---- */
-
+/*@import "~/.cache/wal/colors-waybar.css"*/
 @import "~/.cache/wal/colors-rofi-dark"
 @import "~/.cache/current_wallpaper.rasi"
 /*@import "~/dotfiles/.settings/rofi-border.rasi"*/
@@ -36,16 +38,17 @@ configuration {
 
 
 
+
 /* ---- Window ---- */
 window {
-    width:                        900px;
+    width:                        800px;
     x-offset:                     0px;
     y-offset:                     0px;
     spacing:                      0px;
     padding:                      0px;
     margin:                       0px; 
     color:                        #FFFFFF;
-    border:                       3px;
+    border:                       1px;
     border-color:                 #FFFFFF;
     cursor:                       "default";
     transparency:                 "real";
@@ -63,7 +66,7 @@ mainbox {
     orientation:                  horizontal;
     spacing:                      0px;
     margin:                       0px;
-    background-color:             @background;
+    background-color:             transparent;
     background-image:             @current-image;
     children:                     ["imagebox","listbox"];
 }
@@ -72,6 +75,7 @@ mainbox {
 imagebox {
     padding:                      18px;
     background-color:             transparent;
+    
     orientation:                  vertical;
     children:                     [ "inputbar", "dummy", "mode-switcher" ];
 }
@@ -79,7 +83,7 @@ imagebox {
 /* ---- Listbox ---- */
 listbox {
     spacing:                     20px;
-    background-color:            transparent;
+    background-color:            @background;
     orientation:                 vertical;
     children:                    [ "message", "listview" ];
 }
@@ -97,7 +101,8 @@ inputbar {
     padding:                      15px;
     border-radius:                10px;
     border-color:                 @foreground;
-    background-color:             @background;
+    background-color:             transparent;
+    border:                       1px;
     children:                     [ "textbox-prompt-colon", "entry" ];
 }
 
@@ -130,7 +135,7 @@ mode-switcher{
 button {
     padding:                      10px;
     border-radius:                10px;
-    background-color:             @background;
+    background-color:             transparent;
     text-color:                   inherit;
     cursor:                       pointer;
     border:                       0px;
@@ -154,9 +159,9 @@ listview {
     fixed-height:                 true;
     fixed-columns:                true;
     spacing:                      0px;
-    padding:                      10px;
+    padding:                      5px;
     margin:                       0px;
-    background-color:             @background;
+    background-color:             transparent;
     border:0px;
 }
 
@@ -168,7 +173,7 @@ element {
     cursor:                       pointer;
     background-color:             @background;
     border-radius:                10px;
-    border:                       3px;
+    border:                       0px;
 }
 
 element normal.normal {

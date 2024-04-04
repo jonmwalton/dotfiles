@@ -71,7 +71,7 @@ echo ":: Wallpaper: $wallpaper"
 # Write selected wallpaper into .cache files
 # ----------------------------------------------------- 
 echo "$wallpaper" > "$cache_file"
-echo "* { current-image: url(\"$wallpaper\", height); }" > "$rasi_file"
+#echo "* { current-image: url(\"$wallpaper\", height); }" > "$rasi_file"
 
 # ----------------------------------------------------- 
 # get wallpaper image name
@@ -107,6 +107,7 @@ echo ":: Resized to 75%"
 if [ ! "$blur" == "0x0" ] ;then
     echo "Blur wallpaper using magick"
     magick $blurred -blur $blur $blurred
+    echo "* { current-image: url(\"$blurred\", height); }" > "$rasi_file"
     echo ":: Blurred"
 fi
 
