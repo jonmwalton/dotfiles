@@ -34,16 +34,17 @@
        // "custom/appmenu",
        // "group/settings",
         // START TASK TOOGLE
-        "wlr/taskbar"
+        "wlr/taskbar",
+        "hyprland/workspaces"
         // END TASK TOOGLE
        // "group/quicklinks"//,
         //"hyprland/window"
     ],
 
     // Modules Center
-    "modules-center": [
-        "hyprland/workspaces"
-    ],
+    //"modules-center": [
+    //    "hyprland/workspaces"
+    //],
 
     // Modules Right    
     "modules-right": [
