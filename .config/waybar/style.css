@@ -64,7 +64,7 @@ window#waybar {
     /*font-style: normal;*/
     opacity: 0.8;
     font-size: 16px;
-    color: @textcolor1;
+    color: #ffffff;
 }
 
 #workspaces button {
@@ -72,15 +72,15 @@ window#waybar {
     margin: 4px 3px;
     border-radius: 15px;
     border: 0px;
-    color: @textcolor1;
-    background-color: @workspacesbackground2;
+    color: #ffffff;
+    background-color: @backgroundlight;
     transition: all 0.3s ease-in-out;
-    opacity: 0.4;
+    opacity: 1.0;
 }
 
 #workspaces button.active {
-    color: @textcolor1;
-    background: @workspacesbackground2;
+    color: #ffffff;
+    background: @backgroundlight;
 
     border-radius: 15px;
     min-width: 40px;
@@ -89,10 +89,10 @@ window#waybar {
 }
 
 #workspaces button:hover {
-    color: @textcolor1;
-    background: @workspacesbackground2;
+    color: #ffffff;
+    background: @color2;
     border-radius: 15px;
-    opacity:0.7;
+    opacity:1.0;
 }
 
 /* -----------------------------------------------------

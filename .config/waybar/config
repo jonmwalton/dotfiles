@@ -34,7 +34,7 @@
        // "custom/appmenu",
        // "group/settings",
         // START TASK TOOGLE
-        "wlr/taskbar",
+        //"wlr/taskbar",
         "hyprland/workspaces"
         // END TASK TOOGLE
        // "group/quicklinks"//,
