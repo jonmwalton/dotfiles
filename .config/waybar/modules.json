@@ -221,7 +221,7 @@
         // "timezone": "America/New_York",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         // START CLOCK FORMAT
-        "format": "{:%a %H:%M}",
+        "format": "{:%b %Od %a %H:%M}",
         "format-alt": "{:%Y-%m-%d}"
         // END CLOCK FORMAT
     },
@@ -327,7 +327,7 @@
 
     // Battery
     "battery": {
-    //"interval": 5,
+    "interval": 5,
     "align": 0,
     "rotate": 0,
     //"bat": "BAT1",
