@@ -9,6 +9,8 @@
 # by Stephan Raabe (2023) 
 # ----------------------------------------------------- 
 
+monitors=~/.config/hypr/monitors.conf
+
 # Cache file for holding the current wallpaper
 cache_file="$HOME/.cache/current_wallpaper"
 rasi_file="$HOME/.cache/current_wallpaper.rasi"
@@ -97,7 +99,13 @@ transition_type="wipe"
 #    --transition-duration=0.7 \
 #    --transition-pos "$( hyprctl cursorpos )"
 hyprctl hyprpaper preload $wallpaper
-hyprctl hyprpaper wallpaper eDP-1,$wallpaper
+
+for monitor in $(hyprctl monitors | grep 'Monitor' | awk '{ print $2 }'); do
+
+	hyprctl hyprpaper wallpaper "$monitor,$wallpaper"
+
+done
+
 
 # ----------------------------------------------------- 
 # Created blurred wallpaper
