@@ -8,20 +8,12 @@
 // by Stephan Raabe (2023) 
 // ----------------------------------------------------- 
 //
-{
-    // General Settings
+[{
 
-    // Position TOP
     "layer": "top",
     "margin-top": 0,
     "margin-bottom": 0,
     "output": ["eDP-1","HDMI-A-1"],
-    // Position BOTTOM
-    // "position": "bottom",
-    // "margin-top": 0,
-    // "margin-bottom": 14,
-    
-    "layer": "top",
     "margin-left": 0,
     "margin-right": 0,    
     "spacing": 15,
@@ -31,14 +23,7 @@
 
     // Modules Left
     "modules-left": [
-       // "custom/appmenu",
-       // "group/settings",
-        // START TASK TOOGLE
-        //"wlr/taskbar",
         "hyprland/workspaces"
-        // END TASK TOOGLE
-       // "group/quicklinks"//,
-        //"hyprland/window"
     ],
 
     // Modules Center
@@ -48,27 +33,45 @@
 
     // Modules Right    
     "modules-right": [
-        "custom/cava",
+        //"cava",
+        //"custom/cava",
         "group/hardware",
         "custom/notification",
         "pulseaudio",
-        // START BT TOOGLE
-        //"bluetooth",
-        // END BT TOOGLE
         "battery", 
-        // START NETWORK TOOGLE
-        //"network",
-        // END NETWORK TOOGLE
-        
-        
-        //"custom/cliphist",
-        // START IDLE TOOGLE
-        //"idle_inhibitor",
-        // END IDLE TOOGLE
-        // START TRAY TOOGLE
         "tray",
-        // END TRAY TOOGLE
+
         "custom/exit",
         "clock"
     ]
+
+},
+
+{
+    "layer": "top",
+    "margin-top": 0,
+    "margin-bottom": 0,
+    "output": "DP-1",
+    "margin-left": 0,
+    "margin-right": 0,    
+    "spacing": 15,
+
+    // Load Modules
+    "include": ["~/dotfiles/.config/waybar/modules.json"],
+
+    // Modules Left
+    "modules-left": [
+        "hyprland/workspaces"
+    ],
+
+     // Modules Center
+    "modules-center": [
+        "cava",
+        "mpris"
+    ]
+
+    //"modules-right": [
+    //    "mpris"
+    //]
 }
+]

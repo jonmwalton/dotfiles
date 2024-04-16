@@ -499,4 +499,18 @@ window#waybar.empty #window {
     font-size: 14px;
 }
 
+#cava {
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-left: 0px;
+}
+
+#mpris {
+    color: #ffffff;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 6px;
+	padding-left: 6px;
+}
+
 
