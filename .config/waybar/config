@@ -15,7 +15,7 @@
     "layer": "top",
     "margin-top": 0,
     "margin-bottom": 0,
-
+    "output": ["eDP-1","HDMI-A-1"],
     // Position BOTTOM
     // "position": "bottom",
     // "margin-top": 0,
@@ -43,11 +43,12 @@
 
     // Modules Center
     //"modules-center": [
-    //    "hyprland/workspaces"
+    //    "custom/cava_mviz"
     //],
 
     // Modules Right    
     "modules-right": [
+        "custom/cava",
         "group/hardware",
         "custom/notification",
         "pulseaudio",

@@ -171,7 +171,7 @@ window#waybar.empty #window {
 /* -----------------------------------------------------
  * Custom Quicklinks
  * ----------------------------------------------------- */
-
+#custom-cava,
 #custom-brave, 
 #custom-browser, 
 #custom-keybindings, 
@@ -489,5 +489,14 @@ window#waybar.empty #window {
     font-family: "NotoSansMono Nerd Font";
     font-size: 14px;
   }
+
+  #custom-cava {
+    color: #ffffff;
+    border-left: 0px;
+    border-right: 0px;
+    padding-bottom: 6px;
+    font-family: "bargraph";
+    font-size: 14px;
+}
 
 
