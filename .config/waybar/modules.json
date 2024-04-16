@@ -424,7 +424,7 @@
       },
 
       "custom/cava": {
-        "exec": "~/.config/hypr/scripts/WaybarCava.sh",
+        "exec": "~/.config/hypr/scripts/waybarcava.sh",
         "format": "{}"
     }
 }

@@ -1,10 +1,9 @@
-*
+
 !install.sh
 !.gitignore
 !README.md
 !/.config/code-flags.conf
-!/.config/hypr
-!/.config/hypr/scripts
+!/.config/hypr/*
 !/.config/kitty
 !/.config/rofi
 !/.config/sddm
