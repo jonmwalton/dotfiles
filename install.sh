@@ -63,6 +63,7 @@ packages=(
     thunar
     neofetch
     sddm
+    sox
 )
 
 for PKG1 in "${packages[@]}"; do
