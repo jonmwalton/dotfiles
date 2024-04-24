@@ -64,6 +64,7 @@ packages=(
     neofetch
     sddm
     sox
+    system-config-printer-applet
 )
 
 for PKG1 in "${packages[@]}"; do
