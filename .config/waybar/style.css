@@ -44,7 +44,8 @@ window#waybar {
     background-color: rgba(0,0,0,0.3);
     border-bottom: 0px solid #ffffff;
     /* color: #FFFFFF; */
-    background: rgba(0,0,0,0.3);/*transparent;*/
+    /*background: rgba(0,0,0,0.3);*/
+    background: transparent;
     transition-property: background-color;
     transition-duration: .5s;
     
@@ -62,7 +63,7 @@ window#waybar {
     border: 0px;
     font-weight: bold;
     /*font-style: normal;*/
-    opacity: 0.8;
+    opacity: 1.0;
     font-size: 16px;
     color: #ffffff;
 }
@@ -102,7 +103,7 @@ window#waybar {
 tooltip {
     border-radius: 10px;
     background-color: @backgroundlight;
-    opacity:0.8;
+    opacity:1.0;
     padding:20px;
     margin:0px;
 }
@@ -190,7 +191,7 @@ window#waybar.empty #window {
     margin-right: 23px;
     font-size: 16px;
     font-weight: bold;
-    opacity: 0.8;
+    opacity: 1.0;
     color: @iconcolor;
 }
 
@@ -264,9 +265,10 @@ window#waybar.empty #window {
 #custom-exit {
     margin: 0px 5px 0px 0px;
     padding:0px;
+    padding-right: 20px;
     font-size:14px;
     color: @iconcolor;
-    opacity: 0.8;
+    opacity: 1.0;
 }
 
 /* -----------------------------------------------------
@@ -321,7 +323,7 @@ window#waybar.empty #window {
         font-size:16px;
         color:@iconcolor;
         font-weight: bold;
-        opacity: 0.8;
+        opacity: 1.0;
         padding: 0px 5px 0px 15px;
         margin: 4px 3px;
         border-radius: 15px;
@@ -335,7 +337,7 @@ window#waybar.empty #window {
             font-size:16px;
             color:@iconcolor;
             font-weight: bold;
-            opacity: 0.8;
+            opacity: 1.0;
     /*        border-radius: 15px;
             padding: 1px 10px 0px 10px;
             margin: 3px 15px 3px 0px;
@@ -357,9 +359,9 @@ window#waybar.empty #window {
     color: @textcolor2;
     /*border-radius: 15px;
     padding: 1px 10px 0px 10px;
-    margin: 3px 15px 3px 0px;*/
-    padding-right: 20px;
-    opacity:0.8;
+    margin: 3px 15px 3px 0px;
+    padding-right: 20px;*/
+    opacity:1.0;
     /*border:3px solid @bordercolor;   */
 }
 
@@ -375,7 +377,7 @@ window#waybar.empty #window {
     /*border-radius: 15px;
     padding: 2px 10px 0px 10px;
     margin: 5px 15px 5px 0px;*/
-    opacity:0.8;
+    opacity:1.0;
 }
 
 #pulseaudio.muted {
@@ -395,7 +397,7 @@ window#waybar.empty #window {
     /*border-radius: 15px;
     padding: 2px 10px 0px 10px;
     margin: 5px 15px 5px 0px;*/
-    opacity:0.8;
+    opacity:1.0;
 }
 
 #network.ethernet {
@@ -475,6 +477,7 @@ window#waybar.empty #window {
     padding: 2px 10px 0px 10px;
     margin: 5px 5px 5px 0px;
     background-color: @backgroundlight;
+    opacity: 1.0;
 }
 
 #tray > .passive {

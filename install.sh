@@ -34,6 +34,7 @@ printf "[gitlab.com_paulcarroty_vscodium_repo]\nname=download.vscodium.com\nbase
 sudo dnf update -y
 
 packages=(
+    xdg-desktop-portal-hyprland
     blueman
     SwayNotificationCenter
     hyprland
@@ -65,6 +66,8 @@ packages=(
     sddm
     sox
     system-config-printer-applet
+    udiskie
+    solaar
 )
 
 for PKG1 in "${packages[@]}"; do

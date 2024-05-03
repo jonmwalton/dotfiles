@@ -40,9 +40,9 @@
         "pulseaudio",
         "battery", 
         "tray",
-
-        "custom/exit",
-        "clock"
+        "clock",
+        "custom/exit"
+        
     ]
 
 },
